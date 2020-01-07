@@ -194,7 +194,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 
   if [ $(ls -C1 spec*.AIR 2> /dev/null | wc -l) -gt 0 ] 
   then
-    ls -C1 spec*.AIR 2> /dev/null | xargs -n 1 echo > ${appdir}/load_air_files.lst
+    ls -C1 spec*.AIR 2> /dev/null | xargs -n 1 echo > ${appdir}/load_specialist_air_files.lst
   else
     echo "WARNING No files were found to process" >> ${appdir}/specair_error.err 
   fi
