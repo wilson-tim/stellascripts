@@ -1,0 +1,11 @@
+
+Connected to: Oracle Database 11g Release 11.2.0.1.0 - 64bit Production
+
+Export file created by EXPORT:V10.02.01 via conventional path
+import done in AL32UTF8 character set and AL16UTF16 NCHAR character set
+import server uses WE8ISO8859P15 character set (possible charset conversion)
+export client uses US7ASCII character set (possible charset conversion)
+. importing STELLA's objects into STELLA
+. importing STELLA's objects into STELLA
+. . importing table                      "COMPANY"          3 rows imported
+Import terminated successfully without warnings.

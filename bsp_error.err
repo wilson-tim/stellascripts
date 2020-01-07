@@ -1,0 +1,17 @@
+WARNING :WARNING!!! No files were found to process
+ 
+INFO :StellaBSPLoad
+INFO :START Tue Jan 16 18:30:03 GMT+00:00 2018
+INFO :Debug mode set
+INFO :data :/data/stella/bspfiles exists OK.
+INFO :data :/data/stella/backup exists OK.
+INFO :data :/data/stella/error exists OK.
+INFO :0 files in data directory:
+INFO :List of files to be proc:
+INFO :
+INFO :Files Read:0
+INFO :Files in success:0
+INFO :Files in error:0
+INFO :COMPLETE Tue Jan 16 18:30:03 GMT+00:00 2018
+
+Logfile:/data/logs/stella//bspload1_160118_1830.log

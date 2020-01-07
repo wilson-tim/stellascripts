@@ -1,0 +1,40 @@
+
+SQL*Plus: Release 10.2.0.3.0 - Production on Fri Jun 12 08:30:00 2009
+
+Copyright (c) 1982, 2006, Oracle.  All Rights Reserved.
+
+
+Connected to:
+Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning and Data Mining options
+
+--- DEBUG ON ---
+fildir:/home/dw/SQL_Output stldwhsr.log
+DEBUG
+1: STLDWHSR started:09-jun-12 08:30:02
+DEBUG
+1: Params:Params, branch:  pnr: seas: bkg: airl: days:0
+DEBUG
+1: Tax tol:4 seat tol:2
+DEBUG
+1: Rows processed		    :0
+DEBUG
+1: Rows no bkg match		    :0
+DEBUG
+1: Rows tax outside tolerances	    :0
+DEBUG
+1: Rows seat cost outside tolerances:0
+DEBUG
+1: Rows part-reconciled 	    :0
+DEBUG
+1: Rows fully matched 100%	    :0
+DEBUG
+1: STLDWHSR ended:09-jun-12 08:30:02
+STLDWHSR ended:09-jun-12 08:30:02
+Result of gemini reconc.:
+No of rows :0
+
+PL/SQL procedure successfully completed.
+
+Disconnected from Oracle Database 10g Enterprise Edition Release 10.2.0.3.0 - 64bit Production
+With the Partitioning and Data Mining options

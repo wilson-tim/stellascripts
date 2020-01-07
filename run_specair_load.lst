@@ -1,0 +1,61 @@
+pnr no is RJ3CP9
+pnr no len is 2
+p_pseudo_city_code: 3101
+v_spec_pseudo_list: 38HJ,33CI,33MV,38TW,38TI,38TS,38JT,3100,3101,31FS
+param :  Specialist grp:Z season:Y2019
+branch is : AUST
+32
+pnr_id - pnr_no - crs-code - pnr creation_date3090275-RJ3CP9-AMA-11-OCT-18
+35
+p_pseudo_city_code: 3101
+36
+50
+95
+100
+pnr no is RJ3CP9
+pnr no len is 2
+p_pseudo_city_code: 3101
+v_spec_pseudo_list: 38HJ,33CI,33MV,38TW,38TI,38TS,38JT,3100,3101,31FS
+param :  Specialist grp:Z season:Y2019
+branch is : AUST
+32
+pnr_id - pnr_no - crs-code - pnr creation_date3090276-RJ3CP9-AMA-11-OCT-18
+35
+p_pseudo_city_code: 3101
+36
+50
+95
+100
+pnr no is LARFXS
+pnr no len is 2
+p_pseudo_city_code: 33CI
+v_spec_pseudo_list: 38HJ,33CI,33MV,38TW,38TI,38TS,38JT,3100,3101,31FS
+param :  Specialist grp:C season:Y2019
+branch is : CITA
+32
+pnr_id - pnr_no - crs-code - pnr creation_date3090277-LARFXS-AMA-22-SEP-18
+35
+p_pseudo_city_code: 33CI
+36
+50
+95
+100
+pnr no is LARFXS
+pnr no len is 2
+p_pseudo_city_code: 33CI
+v_spec_pseudo_list: 38HJ,33CI,33MV,38TW,38TI,38TS,38JT,3100,3101,31FS
+param :  Specialist grp:C season:Y2019
+branch is : CITA
+32
+pnr_id - pnr_no - crs-code - pnr creation_date3090278-LARFXS-AMA-22-SEP-18
+35
+p_pseudo_city_code: 33CI
+36
+50
+95
+100
+Result of air load:
+OK|Lf#/Oracle/SECTOR/scripts/stella/log/stelairl_091118_1338.log
+
+PL/SQL procedure successfully completed.
+

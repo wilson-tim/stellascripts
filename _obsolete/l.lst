@@ -1,0 +1,45 @@
+
+2003/05/07---09:47:38 : Parameters passed: .
+
+2003/05/07---09:47:38 --------------------------------------------------------------------------
+2003/05/07---09:47:38 >>>>>> Stella MIR Load load_mir.ksh
+2003/05/07---09:47:38 --------------------------------------------------------------------------
+2003/05/07---09:47:38 Setting variables
+2003/05/07---09:47:38 Checking input params
+start at step  00
+2003/05/07---09:47:38 FTPing files from source server
+2003/05/07---09:47:38 Step 10
+
+not written yet
+2003/05/07---09:47:38 Copying files to main run area from each pseudo area
+2003/05/07---09:47:38 Step 20
+
+y8i
+c4u
+9mp
+ed7
+fs3kr2
+2003/05/07---09:48:57 finished moving files
+2003/05/07---09:48:57 Step 30
+
+2003/05/07---09:48:57 Moving recycle files (/data/stella/recycle) into current data directory (/data/stella/mirfiles) so they can be processed again
+2003/05/07---09:48:57 Step 40
+
+2003/05/07---09:48:57 List of contents of data file directory before actual processing starts
+2003/05/07---09:48:58 Run the stored proc that runs the java program to load the files into database
+2003/05/07---09:53:36 Show output from java program:
+--- DEBUG OFF ---
+Result of mir load:
+OK|Lf#/data/logs/stella//stelmirl_070503_0849.log
+
+PL/SQL procedure successfully completed.
+
+2003/05/07---09:53:36 Completed load of data
+2003/05/07---09:53:36 Logfile used for run was
+/data/logs/stella//stelmirl_070503_0849.log
+2003/05/07---09:53:40 Step 50
+
+error found
+2003/05/07---09:53:40 Step 60
+
+2003/05/07---09:53:43 END OF PROGRAM

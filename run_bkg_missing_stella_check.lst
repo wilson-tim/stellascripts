@@ -1,0 +1,9 @@
+ stella.missing_bookings_report ( null,
+        *
+ERROR at line 8:
+ORA-06550: line 8, column 9:
+PLS-00905: object STELLA.MISSING_BOOKINGS_REPORT is invalid
+ORA-06550: line 8, column 2:
+PL/SQL: Statement ignored
+
+

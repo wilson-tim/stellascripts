@@ -1,0 +1,9710 @@
+
+SQL*Plus: Release 10.2.0.4.0 - Production on Tue Jan 16 09:00:01 2018
+
+Copyright (c) 1982, 2007, Oracle.  All Rights Reserved.
+
+
+Connected to:
+Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+--- DEBUG ON ---
+fildir:/home/dw/SQL_Output stltlink
+DEBUG
+1: STLTLR   started:18-jan-16 09:00:02
+DEBUG
+1: Params:Params, branch:  pnr: seas: airl: days:0
+DEBUG
+1: Tax tol:4 seat tol:2
+DEBUG
+1: 1pnr:3087371 RVZVQB pnr creation dt:11-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:465.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	161
+DEBUG
+1: Ticket No 5117671963
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 465.2
+DEBUG
+1: Tkt Seat Amt 161
+DEBUG
+1: Tkt Tax Amt 588.11
+DEBUG
+1: tkt:5117671963 seat:161 tx:588.11 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117671964
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117671964 seat:0 tx:0 airl:81
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:465.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	161
+DEBUG
+1: Ticket No 5117671965
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 465.2
+DEBUG
+1: Tkt Seat Amt 161
+DEBUG
+1: Tkt Tax Amt 588.11
+DEBUG
+1: tkt:5117671965 seat:161 tx:588.11 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117671966
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117671966 seat:0 tx:0 airl:81
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:465.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	161
+DEBUG
+1: Ticket No 5117671967
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 465.2
+DEBUG
+1: Tkt Seat Amt 161
+DEBUG
+1: Tkt Tax Amt 588.11
+DEBUG
+1: tkt:5117671967 seat:161 tx:588.11 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117671968
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117671968 seat:0 tx:0 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:35.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	86
+DEBUG
+1: Ticket No 5117671969
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 35.3
+DEBUG
+1: Tkt Seat Amt 86
+DEBUG
+1: Tkt Tax Amt 35.3
+DEBUG
+1: tkt:5117671969 seat:86 tx:35.3 airl:795
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:35.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	86
+DEBUG
+1: Ticket No 5117671970
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 35.3
+DEBUG
+1: Tkt Seat Amt 86
+DEBUG
+1: Tkt Tax Amt 35.3
+DEBUG
+1: tkt:5117671970 seat:86 tx:35.3 airl:795
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:35.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	86
+DEBUG
+1: Ticket No 5117671971
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 35.3
+DEBUG
+1: Tkt Seat Amt 86
+DEBUG
+1: Tkt Tax Amt 35.3
+DEBUG
+1: tkt:5117671971 seat:86 tx:35.3 airl:795
+DEBUG
+1: -->stella pnr costs, seat:741 tx:1870.23tol st:0tol tx:25.5
+DEBUG
+1: cmain.pnr_no RVZVQB
+DEBUG
+1: cmain.pnr_creation_date11-JAN-18
+DEBUG
+1: Stella Booking  (Z116551) has no scheduled match in Travelink
+DEBUG
+1: 2pnr:3087399 UNWN9X pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:390.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	791
+DEBUG
+1: Ticket No 5117782328
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 390.4
+DEBUG
+1: Tkt Seat Amt 791
+DEBUG
+1: Tkt Tax Amt 513.31
+DEBUG
+1: tkt:5117782328 seat:791 tx:513.31 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782329
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782329 seat:0 tx:0 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:75.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	111
+DEBUG
+1: Ticket No 5117782330
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 75.7
+DEBUG
+1: Tkt Seat Amt 111
+DEBUG
+1: Tkt Tax Amt 75.7
+DEBUG
+1: tkt:5117782330 seat:111 tx:75.7 airl:126
+DEBUG
+1: -->stella pnr costs, seat:902 tx:589.01tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no UNWN9X
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116625) has no scheduled match in Travelink
+DEBUG
+1: 3pnr:3087564 WTVMY4 pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:13.74 remtx:463.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	115
+DEBUG
+1: Ticket No 5117782363
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 463.6
+DEBUG
+1: Tkt Seat Amt 115
+DEBUG
+1: Tkt Tax Amt 555.34
+DEBUG
+1: tkt:5117782363 seat:115 tx:555.34 airl:176
+DEBUG
+1: in gbtx:78 ubtx:13.74 remtx:463.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	115
+DEBUG
+1: Ticket No 5117782364
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 463.6
+DEBUG
+1: Tkt Seat Amt 115
+DEBUG
+1: Tkt Tax Amt 555.34
+DEBUG
+1: tkt:5117782364 seat:115 tx:555.34 airl:176
+DEBUG
+1: in gbtx:78 ubtx:13.74 remtx:463.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	115
+DEBUG
+1: Ticket No 5117782365
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 463.6
+DEBUG
+1: Tkt Seat Amt 115
+DEBUG
+1: Tkt Tax Amt 555.34
+DEBUG
+1: tkt:5117782365 seat:115 tx:555.34 airl:176
+DEBUG
+1: in gbtx:78 ubtx:13.74 remtx:463.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	115
+DEBUG
+1: Ticket No 5117782366
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 463.6
+DEBUG
+1: Tkt Seat Amt 115
+DEBUG
+1: Tkt Tax Amt 555.34
+DEBUG
+1: tkt:5117782366 seat:115 tx:555.34 airl:176
+DEBUG
+1: -->stella pnr costs, seat:460 tx:2221.36tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no WTVMY4
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116620) has no scheduled match in Travelink
+DEBUG
+1: 4pnr:3087597 KYOOO8 pnr creation dt:14-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:14.87 remtx:471.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	42
+DEBUG
+1: Ticket No 5117782373
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 471.2
+DEBUG
+1: Tkt Seat Amt 42
+DEBUG
+1: Tkt Tax Amt 564.07
+DEBUG
+1: tkt:5117782373 seat:42 tx:564.07 airl:176
+DEBUG
+1: -->stella pnr costs, seat:42 tx:564.07tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no KYOOO8
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (Z116646) has no scheduled match in Travelink
+DEBUG
+1: 5pnr:3087629 NRHXXR pnr creation dt:09-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:150 ubtx:44.91 remtx:903.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	4764
+DEBUG
+1: Ticket No 5117782385
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 903.6
+DEBUG
+1: Tkt Seat Amt 4764
+DEBUG
+1: Tkt Tax Amt 1098.51
+DEBUG
+1: tkt:5117782385 seat:4764 tx:1098.51 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:61.1
+DEBUG
+1:  v_selling_fare_amt	135  1722
+DEBUG
+1: v_published_fare_amt at 135	1722
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782386
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 61.1
+DEBUG
+1: Tkt Seat Amt 1722
+DEBUG
+1: Tkt Tax Amt 61.1
+DEBUG
+1: tkt:5117782386 seat:1722 tx:61.1 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782387
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782387 seat:0 tx:0 airl:81
+DEBUG
+1: -->stella pnr costs, seat:6486 tx:1159.61tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no NRHXXR
+DEBUG
+1: cmain.pnr_creation_date09-JAN-18
+DEBUG
+1: Stella Booking  (Z116600) has no scheduled match in Travelink
+DEBUG
+1: 6pnr:3087727 NFC2JR pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:156 ubtx:45.82 remtx:909.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	2470
+DEBUG
+1: Ticket No 5117835705
+DEBUG
+1: UB Tax 45.82
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 909.4
+DEBUG
+1: Tkt Seat Amt 2470
+DEBUG
+1: Tkt Tax Amt 1111.22
+DEBUG
+1: tkt:5117835705 seat:2470 tx:1111.22 airl:176
+DEBUG
+1: -->stella pnr costs, seat:2470 tx:1111.22tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NFC2JR
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116674) has no scheduled match in Travelink
+DEBUG
+1: 7pnr:3087820 UF3UVD pnr creation dt:12-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:56.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	970
+DEBUG
+1: Ticket No 5117835726
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 56.4
+DEBUG
+1: Tkt Seat Amt 970
+DEBUG
+1: Tkt Tax Amt 179.31
+DEBUG
+1: tkt:5117835726 seat:970 tx:179.31 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835727
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835727 seat:0 tx:0 airl:618
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:56.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	970
+DEBUG
+1: Ticket No 5117835728
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 56.4
+DEBUG
+1: Tkt Seat Amt 970
+DEBUG
+1: Tkt Tax Amt 179.31
+DEBUG
+1: tkt:5117835728 seat:970 tx:179.31 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835729
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835729 seat:0 tx:0 airl:618
+DEBUG
+1: -->stella pnr costs, seat:1940 tx:358.62tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no UF3UVD
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (Z116586) has no scheduled match in Travelink
+DEBUG
+1: 8pnr:3087530 NA6YWL pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	97
+DEBUG
+1: Ticket No 5117774622
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.4
+DEBUG
+1: Tkt Seat Amt 97
+DEBUG
+1: Tkt Tax Amt 47.5
+DEBUG
+1: tkt:5117774622 seat:97 tx:47.5 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	97
+DEBUG
+1: Ticket No 5117774621
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.4
+DEBUG
+1: Tkt Seat Amt 97
+DEBUG
+1: Tkt Tax Amt 47.5
+DEBUG
+1: tkt:5117774621 seat:97 tx:47.5 airl:125
+DEBUG
+1: -->stella pnr costs, seat:194 tx:95tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NA6YWL
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116670) has no scheduled match in Travelink
+DEBUG
+1: 9pnr:3086822 UDPSU8 pnr creation dt:12-JAN-18?18 br:FLEX reas:15-JAN-18
+DEBUG
+1: in gbtx:75 ubtx:13.74 remtx:213
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	439
+DEBUG
+1: Ticket No 5117616472
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 213
+DEBUG
+1: Tkt Seat Amt 439
+DEBUG
+1: Tkt Tax Amt 301.74
+DEBUG
+1: tkt:5117616472 seat:439 tx:301.74 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117616473
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117616473 seat:0 tx:0 airl:176
+DEBUG
+1: in gbtx:0 ubtx:13.74 remtx:213
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	329
+DEBUG
+1: Ticket No 5117616474
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 213
+DEBUG
+1: Tkt Seat Amt 329
+DEBUG
+1: Tkt Tax Amt 226.74
+DEBUG
+1: tkt:5117616474 seat:329 tx:226.74 airl:176
+DEBUG
+1: in gbtx:0 ubtx:13.74 remtx:213
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	329
+DEBUG
+1: Ticket No 5117616484
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 213
+DEBUG
+1: Tkt Seat Amt 329
+DEBUG
+1: Tkt Tax Amt 226.74
+DEBUG
+1: tkt:5117616484 seat:329 tx:226.74 airl:176
+DEBUG
+1: -->stella pnr costs, seat:1097 tx:755.22tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no UDPSU8
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella pnr / booking ref (UDPSU8/12-JAN-18/C116670 )relates to multiple PNRs in Travelink
+DEBUG
+1: 10pnr:3087453 ND48H3 pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:26 ubtx:27.03 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  77
+DEBUG
+1: v_published_fare_amt at 135	77
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117752833
+DEBUG
+1: UB Tax 27.03
+DEBUG
+1: GB Tax 26
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 77
+DEBUG
+1: Tkt Tax Amt 53.03
+DEBUG
+1: tkt:5117752833 seat:77 tx:53.03 airl:125
+DEBUG
+1: in gbtx:26 ubtx:27.03 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  77
+DEBUG
+1: v_published_fare_amt at 135	77
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117752834
+DEBUG
+1: UB Tax 27.03
+DEBUG
+1: GB Tax 26
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 77
+DEBUG
+1: Tkt Tax Amt 53.03
+DEBUG
+1: tkt:5117752834 seat:77 tx:53.03 airl:125
+DEBUG
+1: -->stella pnr costs, seat:154 tx:106.06tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no ND48H3
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (ND48H3/15-JAN-18/C116670 )relates to multiple PNRs in Travelink
+DEBUG
+1: 11pnr:3087455 ND3R9F pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:227.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	169
+DEBUG
+1: Ticket No 5117752835
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 227.9
+DEBUG
+1: Tkt Seat Amt 169
+DEBUG
+1: Tkt Tax Amt 350.81
+DEBUG
+1: tkt:5117752835 seat:169 tx:350.81 airl:125
+DEBUG
+1: -->stella pnr costs, seat:169 tx:350.81tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no ND3R9F
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (ND3R9F/15-JAN-18/C116670 )relates to multiple PNRs in Travelink
+DEBUG
+1: 12pnr:3087383 JGL4FH pnr creation dt:12-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:233
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	314
+DEBUG
+1: Ticket No 5117710242
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 233
+DEBUG
+1: Tkt Seat Amt 314
+DEBUG
+1: Tkt Tax Amt 277.91
+DEBUG
+1: tkt:5117710242 seat:314 tx:277.91 airl:125
+DEBUG
+1: -->stella pnr costs, seat:314 tx:277.91tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no JGL4FH
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (L115130) has no scheduled match in Travelink
+DEBUG
+1: 13pnr:3087518 LOTQSG pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:203.4
+DEBUG
+1:  v_selling_fare_amt	135  626
+DEBUG
+1: v_published_fare_amt at 135	626
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779776
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 203.4
+DEBUG
+1: Tkt Seat Amt 626
+DEBUG
+1: Tkt Tax Amt 323.31
+DEBUG
+1: tkt:5117779776 seat:626 tx:323.31 airl:738
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779777
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117779777 seat:0 tx:0 airl:738
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:203.4
+DEBUG
+1:  v_selling_fare_amt	135  626
+DEBUG
+1: v_published_fare_amt at 135	626
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779778
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 203.4
+DEBUG
+1: Tkt Seat Amt 626
+DEBUG
+1: Tkt Tax Amt 323.31
+DEBUG
+1: tkt:5117779778 seat:626 tx:323.31 airl:738
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779779
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117779779 seat:0 tx:0 airl:738
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:192.9
+DEBUG
+1:  v_selling_fare_amt	135  470
+DEBUG
+1: v_published_fare_amt at 135	470
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779780
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 192.9
+DEBUG
+1: Tkt Seat Amt 470
+DEBUG
+1: Tkt Tax Amt 237.81
+DEBUG
+1: tkt:5117779780 seat:470 tx:237.81 airl:738
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779781
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117779781 seat:0 tx:0 airl:738
+DEBUG
+1: -->stella pnr costs, seat:1722 tx:884.43tol st:0tol tx:15
+DEBUG
+1: cmain.pnr_no LOTQSG
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116663) has no scheduled match in Travelink
+DEBUG
+1: 14pnr:3087710 QDISIM pnr creation dt:25-NOV-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:86.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	281
+DEBUG
+1: Ticket No 5117826541
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 86.6
+DEBUG
+1: Tkt Seat Amt 281
+DEBUG
+1: Tkt Tax Amt 206.51
+DEBUG
+1: tkt:5117826541 seat:281 tx:206.51 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826542
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826542 seat:0 tx:0 airl:607
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:86.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	281
+DEBUG
+1: Ticket No 5117826543
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 86.6
+DEBUG
+1: Tkt Seat Amt 281
+DEBUG
+1: Tkt Tax Amt 206.51
+DEBUG
+1: tkt:5117826543 seat:281 tx:206.51 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826544
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826544 seat:0 tx:0 airl:607
+DEBUG
+1: -->stella pnr costs, seat:562 tx:413.02tol st:0tol tx:10
+DEBUG
+1: cmain.pnr_no QDISIM
+DEBUG
+1: cmain.pnr_creation_date25-NOV-17
+DEBUG
+1: Stella Booking  (L115978) has no scheduled match in Travelink
+DEBUG
+1: 15pnr:3087738 PMI47M pnr creation dt:12-DEC-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:281.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	259
+DEBUG
+1: Ticket No 5117826558
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 281.6
+DEBUG
+1: Tkt Seat Amt 259
+DEBUG
+1: Tkt Tax Amt 401.51
+DEBUG
+1: tkt:5117826558 seat:259 tx:401.51 airl:232
+DEBUG
+1: -->stella pnr costs, seat:259 tx:401.51tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no PMI47M
+DEBUG
+1: cmain.pnr_creation_date12-DEC-17
+DEBUG
+1: Stella Booking  (L116114) has no scheduled match in Travelink
+DEBUG
+1: 16pnr:3087753 SAQ85K pnr creation dt:21-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:120.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	360
+DEBUG
+1: Ticket No 5117826571
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 120.7
+DEBUG
+1: Tkt Seat Amt 360
+DEBUG
+1: Tkt Tax Amt 240.61
+DEBUG
+1: tkt:5117826571 seat:360 tx:240.61 airl:695
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:120.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	360
+DEBUG
+1: Ticket No 5117826572
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 120.7
+DEBUG
+1: Tkt Seat Amt 360
+DEBUG
+1: Tkt Tax Amt 240.61
+DEBUG
+1: tkt:5117826572 seat:360 tx:240.61 airl:695
+DEBUG
+1: -->stella pnr costs, seat:720 tx:481.22tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no SAQ85K
+DEBUG
+1: cmain.pnr_creation_date21-OCT-17
+DEBUG
+1: Stella Booking  (L115579) has no scheduled match in Travelink
+DEBUG
+1: 17pnr:3087755 SMGPGE pnr creation dt:11-JUN-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:229.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	345
+DEBUG
+1: Ticket No 5117826573
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 229.7
+DEBUG
+1: Tkt Seat Amt 345
+DEBUG
+1: Tkt Tax Amt 349.61
+DEBUG
+1: tkt:5117826573 seat:345 tx:349.61 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826574
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826574 seat:0 tx:0 airl:125
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:229.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	345
+DEBUG
+1: Ticket No 5117826575
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 229.7
+DEBUG
+1: Tkt Seat Amt 345
+DEBUG
+1: Tkt Tax Amt 349.61
+DEBUG
+1: tkt:5117826575 seat:345 tx:349.61 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826576
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826576 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:690 tx:699.22tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no SMGPGE
+DEBUG
+1: cmain.pnr_creation_date11-JUN-17
+DEBUG
+1: Stella Booking  (L113805) has no scheduled match in Travelink
+DEBUG
+1: 18pnr:3087769 UTY8YW pnr creation dt:12-JUN-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:210.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	102
+DEBUG
+1: Ticket No 5117826587
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 210.8
+DEBUG
+1: Tkt Seat Amt 102
+DEBUG
+1: Tkt Tax Amt 330.71
+DEBUG
+1: tkt:5117826587 seat:102 tx:330.71 airl:589
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:210.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	102
+DEBUG
+1: Ticket No 5117826588
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 210.8
+DEBUG
+1: Tkt Seat Amt 102
+DEBUG
+1: Tkt Tax Amt 330.71
+DEBUG
+1: tkt:5117826588 seat:102 tx:330.71 airl:589
+DEBUG
+1: -->stella pnr costs, seat:204 tx:661.42tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no UTY8YW
+DEBUG
+1: cmain.pnr_creation_date12-JUN-17
+DEBUG
+1: Stella Booking  (L113821) has no scheduled match in Travelink
+DEBUG
+1: 19pnr:3087775 WWIRUI pnr creation dt:13-JUN-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:285.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	259
+DEBUG
+1: Ticket No 5117826593
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 285.6
+DEBUG
+1: Tkt Seat Amt 259
+DEBUG
+1: Tkt Tax Amt 405.51
+DEBUG
+1: tkt:5117826593 seat:259 tx:405.51 airl:232
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:285.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	259
+DEBUG
+1: Ticket No 5117826594
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 285.6
+DEBUG
+1: Tkt Seat Amt 259
+DEBUG
+1: Tkt Tax Amt 405.51
+DEBUG
+1: tkt:5117826594 seat:259 tx:405.51 airl:232
+DEBUG
+1: -->stella pnr costs, seat:518 tx:811.02tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no WWIRUI
+DEBUG
+1: cmain.pnr_creation_date13-JUN-17
+DEBUG
+1: Stella Booking  (L113834) has no scheduled match in Travelink
+DEBUG
+1: 20pnr:3087802 QCG793 pnr creation dt:22-JUL-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:44.92 remtx:165.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	98
+DEBUG
+1: Ticket No 5117837201
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 165.2
+DEBUG
+1: Tkt Seat Amt 98
+DEBUG
+1: Tkt Tax Amt 288.12
+DEBUG
+1: tkt:5117837201 seat:98 tx:288.12 airl:176
+DEBUG
+1: in gbtx:78 ubtx:44.92 remtx:165.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	98
+DEBUG
+1: Ticket No 5117837202
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 165.2
+DEBUG
+1: Tkt Seat Amt 98
+DEBUG
+1: Tkt Tax Amt 288.12
+DEBUG
+1: tkt:5117837202 seat:98 tx:288.12 airl:176
+DEBUG
+1: -->stella pnr costs, seat:196 tx:576.24tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no QCG793
+DEBUG
+1: cmain.pnr_creation_date22-JUL-17
+DEBUG
+1: Stella Booking  (L114355) has no scheduled match in Travelink
+DEBUG
+1: 21pnr:3087812 N7T6NY pnr creation dt:07-SEP-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:14.87 remtx:193.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	215
+DEBUG
+1: Ticket No 5117837211
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 193.2
+DEBUG
+1: Tkt Seat Amt 215
+DEBUG
+1: Tkt Tax Amt 283.07
+DEBUG
+1: tkt:5117837211 seat:215 tx:283.07 airl:176
+DEBUG
+1: in gbtx:75 ubtx:14.87 remtx:193.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	215
+DEBUG
+1: Ticket No 5117837212
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 193.2
+DEBUG
+1: Tkt Seat Amt 215
+DEBUG
+1: Tkt Tax Amt 283.07
+DEBUG
+1: tkt:5117837212 seat:215 tx:283.07 airl:176
+DEBUG
+1: -->stella pnr costs, seat:430 tx:566.14tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no N7T6NY
+DEBUG
+1: cmain.pnr_creation_date07-SEP-17
+DEBUG
+1: -->Travelink accrual:seat:1116 tax:129.2 pnr:0
+DEBUG
+1: seatamt outside tols
+DEBUG
+1: tax outside tols
+DEBUG
+1: Stella Booking  (L114355) has no scheduled match in Travelink
+DEBUG
+1: 22pnr:3087431 SRILA1 pnr creation dt:08-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 6160305273
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:6160305273 seat:0 tx:0 airl:603
+DEBUG
+1: -->stella pnr costs, seat:0 tx:0tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no SRILA1
+DEBUG
+1: cmain.pnr_creation_date08-JAN-18
+DEBUG
+1: Stella Booking  (L011111) has no scheduled match in Travelink
+DEBUG
+1: 23pnr:3087558 JFS5AR pnr creation dt:13-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117821699
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 35.1
+DEBUG
+1: tkt:5117821699 seat:91 tx:35.1 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117821698
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 35.1
+DEBUG
+1: tkt:5117821698 seat:91 tx:35.1 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117821700
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 9
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 22.1
+DEBUG
+1: tkt:5117821700 seat:91 tx:22.1 airl:125
+DEBUG
+1: -->stella pnr costs, seat:273 tx:92.3tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no JFS5AR
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella pnr / booking ref (JFS5AR/13-JAN-18/L011111 )relates to multiple PNRs in Travelink
+DEBUG
+1: 24pnr:3087857 NJETSI pnr creation dt:15-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:19.3 remtx:12.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	259
+DEBUG
+1: Ticket No 5117821737
+DEBUG
+1: UB Tax 19.3
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 12.4
+DEBUG
+1: Tkt Seat Amt 259
+DEBUG
+1: Tkt Tax Amt 44.7
+DEBUG
+1: tkt:5117821737 seat:259 tx:44.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:19.3 remtx:12.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	259
+DEBUG
+1: Ticket No 5117821736
+DEBUG
+1: UB Tax 19.3
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 12.4
+DEBUG
+1: Tkt Seat Amt 259
+DEBUG
+1: Tkt Tax Amt 44.7
+DEBUG
+1: tkt:5117821736 seat:259 tx:44.7 airl:125
+DEBUG
+1: -->stella pnr costs, seat:518 tx:89.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NJETSI
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NJETSI/15-JAN-18/L011111 )relates to multiple PNRs in Travelink
+DEBUG
+1: 25pnr:3087862 O3QFCF pnr creation dt:15-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	69
+DEBUG
+1: Ticket No 5117821738
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.4
+DEBUG
+1: Tkt Seat Amt 69
+DEBUG
+1: Tkt Tax Amt 41.5
+DEBUG
+1: tkt:5117821738 seat:69 tx:41.5 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	69
+DEBUG
+1: Ticket No 5117821739
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.4
+DEBUG
+1: Tkt Seat Amt 69
+DEBUG
+1: Tkt Tax Amt 41.5
+DEBUG
+1: tkt:5117821739 seat:69 tx:41.5 airl:125
+DEBUG
+1: -->stella pnr costs, seat:138 tx:83tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no O3QFCF
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (O3QFCF/15-JAN-18/L011111 )relates to multiple PNRs in Travelink
+DEBUG
+1: 26pnr:3087528 PTRWWW pnr creation dt:15-JUL-17?18 br:USAC reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:256.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	365
+DEBUG
+1: Ticket No 5117779786
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 256.7
+DEBUG
+1: Tkt Seat Amt 365
+DEBUG
+1: Tkt Tax Amt 379.61
+DEBUG
+1: tkt:5117779786 seat:365 tx:379.61 airl:14
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:256.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	365
+DEBUG
+1: Ticket No 5117779787
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 256.7
+DEBUG
+1: Tkt Seat Amt 365
+DEBUG
+1: Tkt Tax Amt 379.61
+DEBUG
+1: tkt:5117779787 seat:365 tx:379.61 airl:14
+DEBUG
+1: -->stella pnr costs, seat:730 tx:759.22tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no PTRWWW
+DEBUG
+1: cmain.pnr_creation_date15-JUL-17
+DEBUG
+1: Stella pnr / booking ref (PTRWWW/15-JUL-17/L011111 )relates to multiple PNRs in Travelink
+DEBUG
+1: 27pnr:3087554 KLG4UW pnr creation dt:02-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:132
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	735
+DEBUG
+1: Ticket No 5117782359
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 132
+DEBUG
+1: Tkt Seat Amt 735
+DEBUG
+1: Tkt Tax Amt 227.69
+DEBUG
+1: tkt:5117782359 seat:735 tx:227.69 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782360
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782360 seat:0 tx:0 airl:618
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:132
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	735
+DEBUG
+1: Ticket No 5117782361
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 132
+DEBUG
+1: Tkt Seat Amt 735
+DEBUG
+1: Tkt Tax Amt 227.69
+DEBUG
+1: tkt:5117782361 seat:735 tx:227.69 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782362
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782362 seat:0 tx:0 airl:618
+DEBUG
+1: -->stella pnr costs, seat:1470 tx:455.38tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no KLG4UW
+DEBUG
+1: cmain.pnr_creation_date02-JAN-18
+DEBUG
+1: Stella Booking  (Z116296) has no scheduled match in Travelink
+DEBUG
+1: 28pnr:3087714 NEQDOB pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:363.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	206
+DEBUG
+1: Ticket No 5117835696
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 363.6
+DEBUG
+1: Tkt Seat Amt 206
+DEBUG
+1: Tkt Tax Amt 451.94
+DEBUG
+1: tkt:5117835696 seat:206 tx:451.94 airl:157
+DEBUG
+1: -->stella pnr costs, seat:206 tx:451.94tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NEQDOB
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116674) has no scheduled match in Travelink
+DEBUG
+1: 29pnr:3087728 NFOLEG pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:443.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	672
+DEBUG
+1: Ticket No 5117835706
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 443.3
+DEBUG
+1: Tkt Seat Amt 672
+DEBUG
+1: Tkt Tax Amt 566.21
+DEBUG
+1: tkt:5117835706 seat:672 tx:566.21 airl:81
+DEBUG
+1: -->stella pnr costs, seat:672 tx:566.21tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NFOLEG
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116674) has no scheduled match in Travelink
+DEBUG
+1: 30pnr:3087777 UAS5RE pnr creation dt:12-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:156 ubtx:14.87 remtx:900.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1621
+DEBUG
+1: Ticket No 5117835708
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 900.4
+DEBUG
+1: Tkt Seat Amt 1621
+DEBUG
+1: Tkt Tax Amt 1071.27
+DEBUG
+1: tkt:5117835708 seat:1621 tx:1071.27 airl:176
+DEBUG
+1: in gbtx:156 ubtx:14.87 remtx:900.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1621
+DEBUG
+1: Ticket No 5117835707
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 900.4
+DEBUG
+1: Tkt Seat Amt 1621
+DEBUG
+1: Tkt Tax Amt 1071.27
+DEBUG
+1: tkt:5117835707 seat:1621 tx:1071.27 airl:176
+DEBUG
+1: -->stella pnr costs, seat:3242 tx:2142.54tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no UAS5RE
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (Z116675) has no scheduled match in Travelink
+DEBUG
+1: 31pnr:3087847 U79LQ7 pnr creation dt:06-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:150 ubtx:44.91 remtx:103.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	3330
+DEBUG
+1: Ticket No 5117835740
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 103.7
+DEBUG
+1: Tkt Seat Amt 3330
+DEBUG
+1: Tkt Tax Amt 298.61
+DEBUG
+1: tkt:5117835740 seat:3330 tx:298.61 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835741
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835741 seat:0 tx:0 airl:618
+DEBUG
+1: in gbtx:150 ubtx:44.91 remtx:103.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	3330
+DEBUG
+1: Ticket No 5117835738
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 103.7
+DEBUG
+1: Tkt Seat Amt 3330
+DEBUG
+1: Tkt Tax Amt 298.61
+DEBUG
+1: tkt:5117835738 seat:3330 tx:298.61 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835739
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835739 seat:0 tx:0 airl:618
+DEBUG
+1: -->stella pnr costs, seat:6660 tx:597.22tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no U79LQ7
+DEBUG
+1: cmain.pnr_creation_date06-JAN-18
+DEBUG
+1: Stella Booking  (Z116553) has no scheduled match in Travelink
+DEBUG
+1: 32pnr:3087604 JANX34 pnr creation dt:13-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	174
+DEBUG
+1: Ticket No 5117821710
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.6
+DEBUG
+1: Tkt Seat Amt 174
+DEBUG
+1: Tkt Tax Amt 41.7
+DEBUG
+1: tkt:5117821710 seat:174 tx:41.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	174
+DEBUG
+1: Ticket No 5117821709
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.6
+DEBUG
+1: Tkt Seat Amt 174
+DEBUG
+1: Tkt Tax Amt 41.7
+DEBUG
+1: tkt:5117821709 seat:174 tx:41.7 airl:125
+DEBUG
+1: -->stella pnr costs, seat:348 tx:83.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no JANX34
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (C116642) has no scheduled match in Travelink
+DEBUG
+1: 33pnr:3087705 NQ2OGC pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:14.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	121
+DEBUG
+1: Ticket No 5117821722
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 14.4
+DEBUG
+1: Tkt Seat Amt 121
+DEBUG
+1: Tkt Tax Amt 40.5
+DEBUG
+1: tkt:5117821722 seat:121 tx:40.5 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:14.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	121
+DEBUG
+1: Ticket No 5117821721
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 14.4
+DEBUG
+1: Tkt Seat Amt 121
+DEBUG
+1: Tkt Tax Amt 40.5
+DEBUG
+1: tkt:5117821721 seat:121 tx:40.5 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:12.1
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	121
+DEBUG
+1: Ticket No 5117821723
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 12.1
+DEBUG
+1: Tkt Seat Amt 121
+DEBUG
+1: Tkt Tax Amt 25.2
+DEBUG
+1: tkt:5117821723 seat:121 tx:25.2 airl:125
+DEBUG
+1: -->stella pnr costs, seat:363 tx:106.2tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no NQ2OGC
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116683) has no scheduled match in Travelink
+DEBUG
+1: 34pnr:3087466 NGZ2F2 pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:13 ubtx:20.44 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  114
+DEBUG
+1: v_published_fare_amt at 135	114
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117752836
+DEBUG
+1: UB Tax 20.44
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 114
+DEBUG
+1: Tkt Tax Amt 33.44
+DEBUG
+1: tkt:5117752836 seat:114 tx:33.44 airl:125
+DEBUG
+1: -->stella pnr costs, seat:114 tx:33.44tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NGZ2F2
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NGZ2F2/15-JAN-18/C116683 )relates to multiple PNRs in Travelink
+DEBUG
+1: 35pnr:3087486 NPEQEH pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:15.32 remtx:238.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	165
+DEBUG
+1: Ticket No 5117752856
+DEBUG
+1: UB Tax 15.32
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 238.7
+DEBUG
+1: Tkt Seat Amt 165
+DEBUG
+1: Tkt Tax Amt 329.02
+DEBUG
+1: tkt:5117752856 seat:165 tx:329.02 airl:176
+DEBUG
+1: -->stella pnr costs, seat:165 tx:329.02tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NPEQEH
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NPEQEH/15-JAN-18/C116683 )relates to multiple PNRs in Travelink
+DEBUG
+1: 36pnr:3086654 S6AT6V pnr creation dt:11-JAN-18?18 br:HAJS reas:12-JAN-18
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117692841
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117692841 seat:0 tx:0 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117692842
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117692842 seat:0 tx:0 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117692843
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117692843 seat:0 tx:0 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117692844
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117692844 seat:0 tx:0 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117692845
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117692845 seat:0 tx:0 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:74.6
+DEBUG
+1:  v_selling_fare_amt	135  75
+DEBUG
+1: v_published_fare_amt at 135	75
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117740214
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 74.6
+DEBUG
+1: Tkt Seat Amt 68.25
+DEBUG
+1: Tkt Tax Amt 74.6
+DEBUG
+1: tkt:5117740214 seat:68.25 tx:74.6 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:74.6
+DEBUG
+1:  v_selling_fare_amt	135  75
+DEBUG
+1: v_published_fare_amt at 135	75
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117740215
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 74.6
+DEBUG
+1: Tkt Seat Amt 68.25
+DEBUG
+1: Tkt Tax Amt 74.6
+DEBUG
+1: tkt:5117740215 seat:68.25 tx:74.6 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:74.6
+DEBUG
+1:  v_selling_fare_amt	135  75
+DEBUG
+1: v_published_fare_amt at 135	75
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117740216
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 74.6
+DEBUG
+1: Tkt Seat Amt 68.25
+DEBUG
+1: Tkt Tax Amt 74.6
+DEBUG
+1: tkt:5117740216 seat:68.25 tx:74.6 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:74.6
+DEBUG
+1:  v_selling_fare_amt	135  75
+DEBUG
+1: v_published_fare_amt at 135	75
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117740217
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 74.6
+DEBUG
+1: Tkt Seat Amt 68.25
+DEBUG
+1: Tkt Tax Amt 74.6
+DEBUG
+1: tkt:5117740217 seat:68.25 tx:74.6 airl:140
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:74.6
+DEBUG
+1:  v_selling_fare_amt	135  75
+DEBUG
+1: v_published_fare_amt at 135	75
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117740218
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 74.6
+DEBUG
+1: Tkt Seat Amt 68.25
+DEBUG
+1: Tkt Tax Amt 74.6
+DEBUG
+1: tkt:5117740218 seat:68.25 tx:74.6 airl:140
+DEBUG
+1: -->stella pnr costs, seat:341.25 tx:373tol st:0tol tx:25
+DEBUG
+1: cmain.pnr_no S6AT6V
+DEBUG
+1: cmain.pnr_creation_date11-JAN-18
+DEBUG
+1: Stella Booking  (L116559) has no scheduled match in Travelink
+DEBUG
+1: 37pnr:3087585 S2V4TC pnr creation dt:11-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:120.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	370
+DEBUG
+1: Ticket No 5117779813
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 120.7
+DEBUG
+1: Tkt Seat Amt 370
+DEBUG
+1: Tkt Tax Amt 243.61
+DEBUG
+1: tkt:5117779813 seat:370 tx:243.61 airl:695
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779814
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117779814 seat:0 tx:0 airl:695
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:120.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	370
+DEBUG
+1: Ticket No 5117779815
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 120.7
+DEBUG
+1: Tkt Seat Amt 370
+DEBUG
+1: Tkt Tax Amt 243.61
+DEBUG
+1: tkt:5117779815 seat:370 tx:243.61 airl:695
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779816
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117779816 seat:0 tx:0 airl:695
+DEBUG
+1: -->stella pnr costs, seat:740 tx:487.22tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no S2V4TC
+DEBUG
+1: cmain.pnr_creation_date11-JAN-18
+DEBUG
+1: Stella Booking  (L116555) has no scheduled match in Travelink
+DEBUG
+1: 38pnr:3087636 LEQLHT pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:2.3
+DEBUG
+1:  v_selling_fare_amt	135  68
+DEBUG
+1: v_published_fare_amt at 135	68
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826511
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 2.3
+DEBUG
+1: Tkt Seat Amt 68
+DEBUG
+1: Tkt Tax Amt 2.3
+DEBUG
+1: tkt:5117826511 seat:68 tx:2.3 airl:829
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:2.3
+DEBUG
+1:  v_selling_fare_amt	135  68
+DEBUG
+1: v_published_fare_amt at 135	68
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826512
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 2.3
+DEBUG
+1: Tkt Seat Amt 68
+DEBUG
+1: Tkt Tax Amt 2.3
+DEBUG
+1: tkt:5117826512 seat:68 tx:2.3 airl:829
+DEBUG
+1: -->stella pnr costs, seat:136 tx:4.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no LEQLHT
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116657) has no scheduled match in Travelink
+DEBUG
+1: 39pnr:3087745 Q4PYTT pnr creation dt:29-APR-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:191.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	202
+DEBUG
+1: Ticket No 5117826563
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 191.4
+DEBUG
+1: Tkt Seat Amt 202
+DEBUG
+1: Tkt Tax Amt 311.31
+DEBUG
+1: tkt:5117826563 seat:202 tx:311.31 airl:125
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:191.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	202
+DEBUG
+1: Ticket No 5117826564
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 191.4
+DEBUG
+1: Tkt Seat Amt 202
+DEBUG
+1: Tkt Tax Amt 311.31
+DEBUG
+1: tkt:5117826564 seat:202 tx:311.31 airl:125
+DEBUG
+1: -->stella pnr costs, seat:404 tx:622.62tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no Q4PYTT
+DEBUG
+1: cmain.pnr_creation_date29-APR-17
+DEBUG
+1: Stella Booking  (L113214) has no scheduled match in Travelink
+DEBUG
+1: 40pnr:3087747 Q768EA pnr creation dt:13-MAY-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:150 ubtx:13.34 remtx:257.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1942
+DEBUG
+1: Ticket No 5117826565
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 257.2
+DEBUG
+1: Tkt Seat Amt 1942
+DEBUG
+1: Tkt Tax Amt 420.54
+DEBUG
+1: tkt:5117826565 seat:1942 tx:420.54 airl:157
+DEBUG
+1: in gbtx:150 ubtx:13.34 remtx:257.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1942
+DEBUG
+1: Ticket No 5117826566
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 257.2
+DEBUG
+1: Tkt Seat Amt 1942
+DEBUG
+1: Tkt Tax Amt 420.54
+DEBUG
+1: tkt:5117826566 seat:1942 tx:420.54 airl:157
+DEBUG
+1: -->stella pnr costs, seat:3884 tx:841.08tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no Q768EA
+DEBUG
+1: cmain.pnr_creation_date13-MAY-17
+DEBUG
+1: Stella Booking  (L113419) has no scheduled match in Travelink
+DEBUG
+1: 41pnr:3087843 NXHH7F pnr creation dt:15-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821733
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 26.1
+DEBUG
+1: tkt:5117821733 seat:117 tx:26.1 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821732
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 26.1
+DEBUG
+1: tkt:5117821732 seat:117 tx:26.1 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821734
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 13.1
+DEBUG
+1: tkt:5117821734 seat:117 tx:13.1 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821735
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 13.1
+DEBUG
+1: tkt:5117821735 seat:117 tx:13.1 airl:125
+DEBUG
+1: -->stella pnr costs, seat:468 tx:78.4tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no NXHH7F
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NXHH7F/15-JAN-18/L113419 )relates to multiple PNRs in Travelink
+DEBUG
+1: 42pnr:3087549 KMMC4Q pnr creation dt:02-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:45.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	565
+DEBUG
+1: Ticket No 5117782355
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 45.5
+DEBUG
+1: Tkt Seat Amt 565
+DEBUG
+1: Tkt Tax Amt 141.19
+DEBUG
+1: tkt:5117782355 seat:565 tx:141.19 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782356
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782356 seat:0 tx:0 airl:618
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:45.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	565
+DEBUG
+1: Ticket No 5117782357
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 45.5
+DEBUG
+1: Tkt Seat Amt 565
+DEBUG
+1: Tkt Tax Amt 141.19
+DEBUG
+1: tkt:5117782357 seat:565 tx:141.19 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782358
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782358 seat:0 tx:0 airl:618
+DEBUG
+1: -->stella pnr costs, seat:1130 tx:282.38tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no KMMC4Q
+DEBUG
+1: cmain.pnr_creation_date02-JAN-18
+DEBUG
+1: Stella Booking  (Z116296) has no scheduled match in Travelink
+DEBUG
+1: 43pnr:3087571 WRNIS6 pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:109.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	600
+DEBUG
+1: Ticket No 5117782367
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 109.4
+DEBUG
+1: Tkt Seat Amt 600
+DEBUG
+1: Tkt Tax Amt 205.09
+DEBUG
+1: tkt:5117782367 seat:600 tx:205.09 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782368
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782368 seat:0 tx:0 airl:618
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:109.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	600
+DEBUG
+1: Ticket No 5117782369
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 109.4
+DEBUG
+1: Tkt Seat Amt 600
+DEBUG
+1: Tkt Tax Amt 205.09
+DEBUG
+1: tkt:5117782369 seat:600 tx:205.09 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782370
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782370 seat:0 tx:0 airl:618
+DEBUG
+1: -->stella pnr costs, seat:1200 tx:410.18tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no WRNIS6
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116639) has no scheduled match in Travelink
+DEBUG
+1: 44pnr:3087717 NEOGWA pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:56.04 remtx:455.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	342
+DEBUG
+1: Ticket No 5117835697
+DEBUG
+1: UB Tax 56.04
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 455.2
+DEBUG
+1: Tkt Seat Amt 342
+DEBUG
+1: Tkt Tax Amt 589.24
+DEBUG
+1: tkt:5117835697 seat:342 tx:589.24 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835698
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835698 seat:0 tx:0 airl:125
+DEBUG
+1: in gbtx:0 ubtx:56.04 remtx:420.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	260
+DEBUG
+1: Ticket No 5117835699
+DEBUG
+1: UB Tax 56.04
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 420.2
+DEBUG
+1: Tkt Seat Amt 260
+DEBUG
+1: Tkt Tax Amt 476.24
+DEBUG
+1: tkt:5117835699 seat:260 tx:476.24 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835700
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835700 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:602 tx:1065.48tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no NEOGWA
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116674) has no scheduled match in Travelink
+DEBUG
+1: 45pnr:3087861 KXD2JZ pnr creation dt:14-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:35.9
+DEBUG
+1:  v_selling_fare_amt	135  275
+DEBUG
+1: v_published_fare_amt at 135	275
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835750
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 35.9
+DEBUG
+1: Tkt Seat Amt 275
+DEBUG
+1: Tkt Tax Amt 35.9
+DEBUG
+1: tkt:5117835750 seat:275 tx:35.9 airl:86
+DEBUG
+1: -->stella pnr costs, seat:275 tx:35.9tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no KXD2JZ
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (Z116567) has no scheduled match in Travelink
+DEBUG
+1: 46pnr:3086827 U8UXHI pnr creation dt:12-JAN-18?18 br:FLEX reas:15-JAN-18
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117616477
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117616477 seat:0 tx:0 airl:57
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117616478
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117616478 seat:0 tx:0 airl:57
+DEBUG
+1: -->stella pnr costs, seat:0 tx:0tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no U8UXHI
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella pnr / booking ref (U8UXHI/12-JAN-18/Z116567 )relates to multiple PNRs in Travelink
+DEBUG
+1: 47pnr:3087450 NAQICA pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:13 ubtx:19.3 remtx:20.1
+DEBUG
+1:  v_selling_fare_amt	135  142
+DEBUG
+1: v_published_fare_amt at 135	142
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117752830
+DEBUG
+1: UB Tax 19.3
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 20.1
+DEBUG
+1: Tkt Seat Amt 142
+DEBUG
+1: Tkt Tax Amt 52.4
+DEBUG
+1: tkt:5117752830 seat:142 tx:52.4 airl:125
+DEBUG
+1: -->stella pnr costs, seat:142 tx:52.4tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NAQICA
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NAQICA/15-JAN-18/Z116567 )relates to multiple PNRs in Travelink
+DEBUG
+1: 48pnr:3087468 NHD9NM pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:191.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	11
+DEBUG
+1: Ticket No 5117752838
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 191.9
+DEBUG
+1: Tkt Seat Amt 11
+DEBUG
+1: Tkt Tax Amt 287.59
+DEBUG
+1: tkt:5117752838 seat:11 tx:287.59 airl:14
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:191.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	11
+DEBUG
+1: Ticket No 5117752839
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 191.9
+DEBUG
+1: Tkt Seat Amt 11
+DEBUG
+1: Tkt Tax Amt 287.59
+DEBUG
+1: tkt:5117752839 seat:11 tx:287.59 airl:14
+DEBUG
+1: -->stella pnr costs, seat:22 tx:575.18tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NHD9NM
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NHD9NM/15-JAN-18/Z116567 )relates to multiple PNRs in Travelink
+DEBUG
+1: 49pnr:3087512 LF8VBX pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:118.8
+DEBUG
+1:  v_selling_fare_amt	135  116
+DEBUG
+1: v_published_fare_amt at 135	116
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779770
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 118.8
+DEBUG
+1: Tkt Seat Amt 116
+DEBUG
+1: Tkt Tax Amt 118.8
+DEBUG
+1: tkt:5117779770 seat:116 tx:118.8 airl:83
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:118.8
+DEBUG
+1:  v_selling_fare_amt	135  116
+DEBUG
+1: v_published_fare_amt at 135	116
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779771
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 118.8
+DEBUG
+1: Tkt Seat Amt 116
+DEBUG
+1: Tkt Tax Amt 118.8
+DEBUG
+1: tkt:5117779771 seat:116 tx:118.8 airl:83
+DEBUG
+1: -->stella pnr costs, seat:232 tx:237.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no LF8VBX
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116658) has no scheduled match in Travelink
+DEBUG
+1: 50pnr:3087575 R77XCR pnr creation dt:02-APR-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:298.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	816
+DEBUG
+1: Ticket No 5117779803
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 298.7
+DEBUG
+1: Tkt Seat Amt 816
+DEBUG
+1: Tkt Tax Amt 461.8
+DEBUG
+1: tkt:5117779803 seat:816 tx:461.8 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:298.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	816
+DEBUG
+1: Ticket No 5117779804
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 298.7
+DEBUG
+1: Tkt Seat Amt 816
+DEBUG
+1: Tkt Tax Amt 461.8
+DEBUG
+1: tkt:5117779804 seat:816 tx:461.8 airl:932
+DEBUG
+1: -->stella pnr costs, seat:1632 tx:923.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no R77XCR
+DEBUG
+1: cmain.pnr_creation_date02-APR-17
+DEBUG
+1: Stella Booking  (L112758) has no scheduled match in Travelink
+DEBUG
+1: 51pnr:3087577 V4KWHT pnr creation dt:18-SEP-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:13.74 remtx:259.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	213
+DEBUG
+1: Ticket No 5117779805
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 259.2
+DEBUG
+1: Tkt Seat Amt 213
+DEBUG
+1: Tkt Tax Amt 350.94
+DEBUG
+1: tkt:5117779805 seat:213 tx:350.94 airl:176
+DEBUG
+1: in gbtx:78 ubtx:13.74 remtx:259.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	213
+DEBUG
+1: Ticket No 5117779806
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 259.2
+DEBUG
+1: Tkt Seat Amt 213
+DEBUG
+1: Tkt Tax Amt 350.94
+DEBUG
+1: tkt:5117779806 seat:213 tx:350.94 airl:176
+DEBUG
+1: -->stella pnr costs, seat:426 tx:701.88tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no V4KWHT
+DEBUG
+1: cmain.pnr_creation_date18-SEP-17
+DEBUG
+1: Stella Booking  (L115109) has no scheduled match in Travelink
+DEBUG
+1: 52pnr:3087610 J3O6XP pnr creation dt:13-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:11.2
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826499
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 11.2
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 11.2
+DEBUG
+1: tkt:5117826499 seat:117 tx:11.2 airl:232
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:11.2
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826500
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 11.2
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 11.2
+DEBUG
+1: tkt:5117826500 seat:117 tx:11.2 airl:232
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:11.2
+DEBUG
+1:  v_selling_fare_amt	135  117
+DEBUG
+1: v_published_fare_amt at 135	117
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826501
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 11.2
+DEBUG
+1: Tkt Seat Amt 117
+DEBUG
+1: Tkt Tax Amt 11.2
+DEBUG
+1: tkt:5117826501 seat:117 tx:11.2 airl:232
+DEBUG
+1: -->stella pnr costs, seat:351 tx:33.6tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no J3O6XP
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (L116630) has no scheduled match in Travelink
+DEBUG
+1: 53pnr:3087693 LO8YBF pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:84.6
+DEBUG
+1:  v_selling_fare_amt	135  97
+DEBUG
+1: v_published_fare_amt at 135	97
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826535
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 84.6
+DEBUG
+1: Tkt Seat Amt 97
+DEBUG
+1: Tkt Tax Amt 84.6
+DEBUG
+1: tkt:5117826535 seat:97 tx:84.6 airl:603
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:84.6
+DEBUG
+1:  v_selling_fare_amt	135  97
+DEBUG
+1: v_published_fare_amt at 135	97
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826536
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 84.6
+DEBUG
+1: Tkt Seat Amt 97
+DEBUG
+1: Tkt Tax Amt 84.6
+DEBUG
+1: tkt:5117826536 seat:97 tx:84.6 airl:603
+DEBUG
+1: -->stella pnr costs, seat:194 tx:169.2tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no LO8YBF
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116664) has no scheduled match in Travelink
+DEBUG
+1: 54pnr:3087739 PRQOIK pnr creation dt:06-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.92 remtx:175.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	81
+DEBUG
+1: Ticket No 5117826559
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 175.2
+DEBUG
+1: Tkt Seat Amt 81
+DEBUG
+1: Tkt Tax Amt 295.12
+DEBUG
+1: tkt:5117826559 seat:81 tx:295.12 airl:176
+DEBUG
+1: in gbtx:75 ubtx:44.92 remtx:175.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	81
+DEBUG
+1: Ticket No 5117826560
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 175.2
+DEBUG
+1: Tkt Seat Amt 81
+DEBUG
+1: Tkt Tax Amt 295.12
+DEBUG
+1: tkt:5117826560 seat:81 tx:295.12 airl:176
+DEBUG
+1: -->stella pnr costs, seat:162 tx:590.24tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no PRQOIK
+DEBUG
+1: cmain.pnr_creation_date06-OCT-17
+DEBUG
+1: Stella Booking  (L115377) has no scheduled match in Travelink
+DEBUG
+1: 55pnr:3087751 RS78DN pnr creation dt:07-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:299.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	210
+DEBUG
+1: Ticket No 5117826569
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 299.6
+DEBUG
+1: Tkt Seat Amt 210
+DEBUG
+1: Tkt Tax Amt 387.94
+DEBUG
+1: tkt:5117826569 seat:210 tx:387.94 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:299.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	210
+DEBUG
+1: Ticket No 5117826570
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 299.6
+DEBUG
+1: Tkt Seat Amt 210
+DEBUG
+1: Tkt Tax Amt 387.94
+DEBUG
+1: tkt:5117826570 seat:210 tx:387.94 airl:176
+DEBUG
+1: -->stella pnr costs, seat:420 tx:775.88tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no RS78DN
+DEBUG
+1: cmain.pnr_creation_date07-OCT-17
+DEBUG
+1: Stella Booking  (L115394) has no scheduled match in Travelink
+DEBUG
+1: 56pnr:3087807 OJ7Y7D pnr creation dt:09-JUN-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837206
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837206 seat:31 tx:328.51 airl:706
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837207
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837207 seat:31 tx:328.51 airl:706
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837208
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837208 seat:31 tx:328.51 airl:706
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837209
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837209 seat:31 tx:328.51 airl:706
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837210
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837210 seat:31 tx:328.51 airl:706
+DEBUG
+1: -->stella pnr costs, seat:155 tx:1642.55tol st:0tol tx:15
+DEBUG
+1: cmain.pnr_no OJ7Y7D
+DEBUG
+1: cmain.pnr_creation_date09-JUN-17
+DEBUG
+1: Stella Booking  (L113779) has no scheduled match in Travelink
+DEBUG
+1: 57pnr:3087301 KXYM46 pnr creation dt:14-JAN-18?18 br:SOVE reas:15-JAN-18
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	285
+DEBUG
+1: Ticket No 5117774576
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.6
+DEBUG
+1: Tkt Seat Amt 285
+DEBUG
+1: Tkt Tax Amt 41.7
+DEBUG
+1: tkt:5117774576 seat:285 tx:41.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	285
+DEBUG
+1: Ticket No 5117774575
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.6
+DEBUG
+1: Tkt Seat Amt 285
+DEBUG
+1: Tkt Tax Amt 41.7
+DEBUG
+1: tkt:5117774575 seat:285 tx:41.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	285
+DEBUG
+1: Ticket No 5117774578
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.6
+DEBUG
+1: Tkt Seat Amt 285
+DEBUG
+1: Tkt Tax Amt 41.7
+DEBUG
+1: tkt:5117774578 seat:285 tx:41.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:15.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	285
+DEBUG
+1: Ticket No 5117774577
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 15.6
+DEBUG
+1: Tkt Seat Amt 285
+DEBUG
+1: Tkt Tax Amt 41.7
+DEBUG
+1: tkt:5117774577 seat:285 tx:41.7 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826528
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826528 seat:0 tx:0 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821720
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117821720 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:1140 tx:166.8tol st:0tol tx:18
+DEBUG
+1: cmain.pnr_no KXYM46
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella pnr / booking ref (KXYM46/14-JAN-18/L113779 )relates to multiple PNRs in Travelink
+DEBUG
+1: 58pnr:3087514 LD2ER7 pnr creation dt:14-JAN-18?18 br:USAC reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:11.6
+DEBUG
+1:  v_selling_fare_amt	135  59
+DEBUG
+1: v_published_fare_amt at 135	59
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779772
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 11.6
+DEBUG
+1: Tkt Seat Amt 59
+DEBUG
+1: Tkt Tax Amt 11.6
+DEBUG
+1: tkt:5117779772 seat:59 tx:11.6 airl:173
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:11.6
+DEBUG
+1:  v_selling_fare_amt	135  59
+DEBUG
+1: v_published_fare_amt at 135	59
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117779773
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 11.6
+DEBUG
+1: Tkt Seat Amt 59
+DEBUG
+1: Tkt Tax Amt 11.6
+DEBUG
+1: tkt:5117779773 seat:59 tx:11.6 airl:173
+DEBUG
+1: -->stella pnr costs, seat:118 tx:23.2tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no LD2ER7
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella pnr / booking ref (LD2ER7/14-JAN-18/L113779 )relates to multiple PNRs in Travelink
+DEBUG
+1: 59pnr:3087779 NQFOSD pnr creation dt:15-JAN-18?18 br:USAC reas:
+DEBUG
+1: in gbtx:78 ubtx:47.76 remtx:208.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	188
+DEBUG
+1: Ticket No 5117837195
+DEBUG
+1: UB Tax 47.76
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 208.7
+DEBUG
+1: Tkt Seat Amt 188
+DEBUG
+1: Tkt Tax Amt 334.46
+DEBUG
+1: tkt:5117837195 seat:188 tx:334.46 airl:1
+DEBUG
+1: in gbtx:78 ubtx:47.76 remtx:208.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	188
+DEBUG
+1: Ticket No 5117837196
+DEBUG
+1: UB Tax 47.76
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 208.7
+DEBUG
+1: Tkt Seat Amt 188
+DEBUG
+1: Tkt Tax Amt 334.46
+DEBUG
+1: tkt:5117837196 seat:188 tx:334.46 airl:1
+DEBUG
+1: -->stella pnr costs, seat:376 tx:668.92tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NQFOSD
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NQFOSD/15-JAN-18/L113779 )relates to multiple PNRs in Travelink
+DEBUG
+1: 60pnr:3087851 WTWDFG pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:480.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	170
+DEBUG
+1: Ticket No 5117835742
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 480.7
+DEBUG
+1: Tkt Seat Amt 170
+DEBUG
+1: Tkt Tax Amt 569.04
+DEBUG
+1: tkt:5117835742 seat:170 tx:569.04 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835743
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835743 seat:0 tx:0 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:480.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	170
+DEBUG
+1: Ticket No 5117835744
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 480.7
+DEBUG
+1: Tkt Seat Amt 170
+DEBUG
+1: Tkt Tax Amt 569.04
+DEBUG
+1: tkt:5117835744 seat:170 tx:569.04 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835745
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835745 seat:0 tx:0 airl:176
+DEBUG
+1: -->stella pnr costs, seat:340 tx:1138.08tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no WTWDFG
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116690) has no scheduled match in Travelink
+DEBUG
+1: 61pnr:3087855 J7ZJUN pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:41.04 remtx:471.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	288
+DEBUG
+1: Ticket No 5117835746
+DEBUG
+1: UB Tax 41.04
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 471.7
+DEBUG
+1: Tkt Seat Amt 288
+DEBUG
+1: Tkt Tax Amt 590.74
+DEBUG
+1: tkt:5117835746 seat:288 tx:590.74 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835747
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835747 seat:0 tx:0 airl:176
+DEBUG
+1: -->stella pnr costs, seat:288 tx:590.74tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no J7ZJUN
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116690) has no scheduled match in Travelink
+DEBUG
+1: 62pnr:3087859 LE523L pnr creation dt:08-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:13.74 remtx:500.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	539
+DEBUG
+1: Ticket No 5117835748
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 500.3
+DEBUG
+1: Tkt Seat Amt 539
+DEBUG
+1: Tkt Tax Amt 589.04
+DEBUG
+1: tkt:5117835748 seat:539 tx:589.04 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835749
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835749 seat:0 tx:0 airl:176
+DEBUG
+1: -->stella pnr costs, seat:539 tx:589.04tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no LE523L
+DEBUG
+1: cmain.pnr_creation_date08-JAN-18
+DEBUG
+1: Stella Booking  (Z116567) has no scheduled match in Travelink
+DEBUG
+1: 63pnr:3087830 NV46OK pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	63
+DEBUG
+1: Ticket No 5117821728
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.2
+DEBUG
+1: Tkt Seat Amt 63
+DEBUG
+1: Tkt Tax Amt 47.3
+DEBUG
+1: tkt:5117821728 seat:63 tx:47.3 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	63
+DEBUG
+1: Ticket No 5117821729
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.2
+DEBUG
+1: Tkt Seat Amt 63
+DEBUG
+1: Tkt Tax Amt 47.3
+DEBUG
+1: tkt:5117821729 seat:63 tx:47.3 airl:125
+DEBUG
+1: -->stella pnr costs, seat:126 tx:94.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NV46OK
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116688) has no scheduled match in Travelink
+DEBUG
+1: 64pnr:3087492 NMUIGU pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:253.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	335
+DEBUG
+1: Ticket No 5117752862
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 253.8
+DEBUG
+1: Tkt Seat Amt 335
+DEBUG
+1: Tkt Tax Amt 373.71
+DEBUG
+1: tkt:5117752862 seat:335 tx:373.71 airl:6
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:253.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	335
+DEBUG
+1: Ticket No 5117752863
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 253.8
+DEBUG
+1: Tkt Seat Amt 335
+DEBUG
+1: Tkt Tax Amt 373.71
+DEBUG
+1: tkt:5117752863 seat:335 tx:373.71 airl:6
+DEBUG
+1: -->stella pnr costs, seat:670 tx:747.42tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NMUIGU
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NMUIGU/15-JAN-18/C116688 )relates to multiple PNRs in Travelink
+DEBUG
+1: 65pnr:3086728 SJPW7F pnr creation dt:11-JAN-18?18 br:HAJS reas:12-JAN-18
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117710192
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117710192 seat:0 tx:0 airl:910
+DEBUG
+1: -->stella pnr costs, seat:0 tx:0tol st:0tol tx:2.5
+DEBUG
+1: cmain.pnr_no SJPW7F
+DEBUG
+1: cmain.pnr_creation_date11-JAN-18
+DEBUG
+1: Stella Booking  (L116197) has no scheduled match in Travelink
+DEBUG
+1: 66pnr:3087616 NCNA3Z pnr creation dt:15-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:22.8
+DEBUG
+1:  v_selling_fare_amt	135  87
+DEBUG
+1: v_published_fare_amt at 135	87
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826505
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 22.8
+DEBUG
+1: Tkt Seat Amt 87
+DEBUG
+1: Tkt Tax Amt 22.8
+DEBUG
+1: tkt:5117826505 seat:87 tx:22.8 airl:232
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:22.8
+DEBUG
+1:  v_selling_fare_amt	135  87
+DEBUG
+1: v_published_fare_amt at 135	87
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826506
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 22.8
+DEBUG
+1: Tkt Seat Amt 87
+DEBUG
+1: Tkt Tax Amt 22.8
+DEBUG
+1: tkt:5117826506 seat:87 tx:22.8 airl:232
+DEBUG
+1: -->stella pnr costs, seat:174 tx:45.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NCNA3Z
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (L116415) has no scheduled match in Travelink
+DEBUG
+1: 67pnr:3087638 NHET4E pnr creation dt:15-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:391.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1129
+DEBUG
+1: Ticket No 5117826513
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 391.5
+DEBUG
+1: Tkt Seat Amt 1129
+DEBUG
+1: Tkt Tax Amt 554.6
+DEBUG
+1: tkt:5117826513 seat:1129 tx:554.6 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:391.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1129
+DEBUG
+1: Ticket No 5117826514
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 391.5
+DEBUG
+1: Tkt Seat Amt 1129
+DEBUG
+1: Tkt Tax Amt 554.6
+DEBUG
+1: tkt:5117826514 seat:1129 tx:554.6 airl:932
+DEBUG
+1: -->stella pnr costs, seat:2258 tx:1109.2tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NHET4E
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: -->Travelink accrual:seat:1840 tax:275.2 pnr:0
+DEBUG
+1: seatamt outside tols
+DEBUG
+1: tax outside tols
+DEBUG
+1: Stella Booking  (L116415) has no scheduled match in Travelink
+DEBUG
+1: 68pnr:3087553 NCNXBK pnr creation dt:15-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	284
+DEBUG
+1: Ticket No 5117821697
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9.8
+DEBUG
+1: Tkt Seat Amt 284
+DEBUG
+1: Tkt Tax Amt 35.9
+DEBUG
+1: tkt:5117821697 seat:284 tx:35.9 airl:125
+DEBUG
+1: -->stella pnr costs, seat:284 tx:35.9tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NCNXBK
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NCNXBK/15-JAN-18/L116675 )relates to multiple PNRs in Travelink
+DEBUG
+1: 69pnr:3087386 LEFNVM pnr creation dt:12-JAN-18W17 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:253.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	215
+DEBUG
+1: Ticket No 5117740210
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 253.8
+DEBUG
+1: Tkt Seat Amt 215
+DEBUG
+1: Tkt Tax Amt 341.9
+DEBUG
+1: tkt:5117740210 seat:215 tx:341.9 airl:1
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:253.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	215
+DEBUG
+1: Ticket No 5117740211
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 253.8
+DEBUG
+1: Tkt Seat Amt 215
+DEBUG
+1: Tkt Tax Amt 341.9
+DEBUG
+1: tkt:5117740211 seat:215 tx:341.9 airl:1
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117740212
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117740212 seat:0 tx:0 airl:1
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:253.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	215
+DEBUG
+1: Ticket No 5117740213
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 253.8
+DEBUG
+1: Tkt Seat Amt 215
+DEBUG
+1: Tkt Tax Amt 266.9
+DEBUG
+1: tkt:5117740213 seat:215 tx:266.9 airl:1
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:253.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	215
+DEBUG
+1: Ticket No 5117740246
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 253.8
+DEBUG
+1: Tkt Seat Amt 215
+DEBUG
+1: Tkt Tax Amt 266.9
+DEBUG
+1: tkt:5117740246 seat:215 tx:266.9 airl:1
+DEBUG
+1: -->stella pnr costs, seat:860 tx:1217.6tol st:0tol tx:15
+DEBUG
+1: cmain.pnr_no LEFNVM
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella pnr / booking ref (LEFNVM/12-JAN-18/L116675 )relates to multiple PNRs in Travelink
+DEBUG
+1: 70pnr:3087688 NLV5R3 pnr creation dt:15-JAN-18?18 br:USAC reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:249.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826531
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 249.7
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 372.61
+DEBUG
+1: tkt:5117826531 seat:0 tx:372.61 airl:16
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:249.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826532
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 249.7
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 372.61
+DEBUG
+1: tkt:5117826532 seat:0 tx:372.61 airl:16
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:249.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826533
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 249.7
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 372.61
+DEBUG
+1: tkt:5117826533 seat:0 tx:372.61 airl:16
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:249.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826534
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 249.7
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 372.61
+DEBUG
+1: tkt:5117826534 seat:0 tx:372.61 airl:16
+DEBUG
+1: -->stella pnr costs, seat:0 tx:1490.44tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no NLV5R3
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NLV5R3/15-JAN-18/L116675 )relates to multiple PNRs in Travelink
+DEBUG
+1: 71pnr:3087839 NQZ9RQ pnr creation dt:15-JAN-18?18 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	20
+DEBUG
+1: Ticket No 5117837222
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 20
+DEBUG
+1: Tkt Tax Amt 363.8
+DEBUG
+1: tkt:5117837222 seat:20 tx:363.8 airl:932
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	20
+DEBUG
+1: Ticket No 5117837223
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 20
+DEBUG
+1: Tkt Tax Amt 363.8
+DEBUG
+1: tkt:5117837223 seat:20 tx:363.8 airl:932
+DEBUG
+1: -->stella pnr costs, seat:40 tx:727.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NQZ9RQ
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NQZ9RQ/15-JAN-18/L116675 )relates to multiple PNRs in Travelink
+DEBUG
+1: 72pnr:3087402 S3RO7H pnr creation dt:12-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	103.5
+DEBUG
+1: Ticket No 3010869300
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 103.5
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869300 seat:103.5 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	129.4
+DEBUG
+1: Ticket No 3010869301
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 129.4
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869301 seat:129.4 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	129.4
+DEBUG
+1: Ticket No 3010869302
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 129.4
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869302 seat:129.4 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	103.5
+DEBUG
+1: Ticket No 3010869303
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 103.5
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869303 seat:103.5 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	103.5
+DEBUG
+1: Ticket No 3010869304
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 103.5
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869304 seat:103.5 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	129.4
+DEBUG
+1: Ticket No 3010869305
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 129.4
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869305 seat:129.4 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	129.4
+DEBUG
+1: Ticket No 3010869306
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 129.4
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869306 seat:129.4 tx:0 airl:607
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	103.5
+DEBUG
+1: Ticket No 3010869307
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 103.5
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:3010869307 seat:103.5 tx:0 airl:607
+DEBUG
+1: -->stella pnr costs, seat:931.6 tx:0tol st:0tol tx:20
+DEBUG
+1: cmain.pnr_no S3RO7H
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (Z116385) has no scheduled match in Travelink
+DEBUG
+1: 73pnr:3087599 L5YXJZ pnr creation dt:14-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:13.34 remtx:471.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	72
+DEBUG
+1: Ticket No 5117782374
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 471.2
+DEBUG
+1: Tkt Seat Amt 72
+DEBUG
+1: Tkt Tax Amt 562.54
+DEBUG
+1: tkt:5117782374 seat:72 tx:562.54 airl:176
+DEBUG
+1: -->stella pnr costs, seat:72 tx:562.54tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no L5YXJZ
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (Z116649) has no scheduled match in Travelink
+DEBUG
+1: 74pnr:3087623 LBGMNT pnr creation dt:14-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:13.34 remtx:33.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	478
+DEBUG
+1: Ticket No 5117782379
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 33.8
+DEBUG
+1: Tkt Seat Amt 478
+DEBUG
+1: Tkt Tax Amt 125.14
+DEBUG
+1: tkt:5117782379 seat:478 tx:125.14 airl:618
+DEBUG
+1: in gbtx:78 ubtx:13.34 remtx:33.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	478
+DEBUG
+1: Ticket No 5117782380
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 33.8
+DEBUG
+1: Tkt Seat Amt 478
+DEBUG
+1: Tkt Tax Amt 125.14
+DEBUG
+1: tkt:5117782380 seat:478 tx:125.14 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:93.8
+DEBUG
+1:  v_selling_fare_amt	135  828
+DEBUG
+1: v_published_fare_amt at 135	828
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782381
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 93.8
+DEBUG
+1: Tkt Seat Amt 828
+DEBUG
+1: Tkt Tax Amt 93.8
+DEBUG
+1: tkt:5117782381 seat:828 tx:93.8 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:93.8
+DEBUG
+1:  v_selling_fare_amt	135  828
+DEBUG
+1: v_published_fare_amt at 135	828
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782382
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 93.8
+DEBUG
+1: Tkt Seat Amt 828
+DEBUG
+1: Tkt Tax Amt 93.8
+DEBUG
+1: tkt:5117782382 seat:828 tx:93.8 airl:81
+DEBUG
+1: -->stella pnr costs, seat:2612 tx:437.88tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no LBGMNT
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (Z115523) has no scheduled match in Travelink
+DEBUG
+1: 75pnr:3087632 URO2ET pnr creation dt:12-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:85.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	605
+DEBUG
+1: Ticket No 5117782388
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 85.4
+DEBUG
+1: Tkt Seat Amt 605
+DEBUG
+1: Tkt Tax Amt 208.31
+DEBUG
+1: tkt:5117782388 seat:605 tx:208.31 airl:86
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782389
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782389 seat:0 tx:0 airl:86
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:85.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	605
+DEBUG
+1: Ticket No 5117782390
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 85.4
+DEBUG
+1: Tkt Seat Amt 605
+DEBUG
+1: Tkt Tax Amt 208.31
+DEBUG
+1: tkt:5117782390 seat:605 tx:208.31 airl:86
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782391
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782391 seat:0 tx:0 airl:86
+DEBUG
+1: -->stella pnr costs, seat:1210 tx:416.62tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no URO2ET
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (Z116672) has no scheduled match in Travelink
+DEBUG
+1: 76pnr:3087797 NKQPBG pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:156 ubtx:44.91 remtx:84.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	2515
+DEBUG
+1: Ticket No 5117835723
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 84.4
+DEBUG
+1: Tkt Seat Amt 2515
+DEBUG
+1: Tkt Tax Amt 285.31
+DEBUG
+1: tkt:5117835723 seat:2515 tx:285.31 airl:618
+DEBUG
+1: in gbtx:156 ubtx:44.91 remtx:84.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	2515
+DEBUG
+1: Ticket No 5117835724
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 84.4
+DEBUG
+1: Tkt Seat Amt 2515
+DEBUG
+1: Tkt Tax Amt 285.31
+DEBUG
+1: tkt:5117835724 seat:2515 tx:285.31 airl:618
+DEBUG
+1: -->stella pnr costs, seat:5030 tx:570.62tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NKQPBG
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116678) has no scheduled match in Travelink
+DEBUG
+1: 77pnr:3087824 NPGFSW pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:33.5
+DEBUG
+1:  v_selling_fare_amt	135  123
+DEBUG
+1: v_published_fare_amt at 135	123
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835730
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 33.5
+DEBUG
+1: Tkt Seat Amt 123
+DEBUG
+1: Tkt Tax Amt 33.5
+DEBUG
+1: tkt:5117835730 seat:123 tx:33.5 airl:795
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:33.5
+DEBUG
+1:  v_selling_fare_amt	135  123
+DEBUG
+1: v_published_fare_amt at 135	123
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835731
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 33.5
+DEBUG
+1: Tkt Seat Amt 123
+DEBUG
+1: Tkt Tax Amt 33.5
+DEBUG
+1: tkt:5117835731 seat:123 tx:33.5 airl:795
+DEBUG
+1: -->stella pnr costs, seat:246 tx:67tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no NPGFSW
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116553) has no scheduled match in Travelink
+DEBUG
+1: 78pnr:3087391 WR3HQN pnr creation dt:13-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:26 ubtx:13.1 remtx:18.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	202
+DEBUG
+1: Ticket No 5117774543
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 26
+DEBUG
+1: Remianing Tax 18.6
+DEBUG
+1: Tkt Seat Amt 202
+DEBUG
+1: Tkt Tax Amt 57.7
+DEBUG
+1: tkt:5117774543 seat:202 tx:57.7 airl:125
+DEBUG
+1: in gbtx:26 ubtx:13.1 remtx:18.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	202
+DEBUG
+1: Ticket No 5117774544
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 26
+DEBUG
+1: Remianing Tax 18.6
+DEBUG
+1: Tkt Seat Amt 202
+DEBUG
+1: Tkt Tax Amt 57.7
+DEBUG
+1: tkt:5117774544 seat:202 tx:57.7 airl:125
+DEBUG
+1: -->stella pnr costs, seat:404 tx:115.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no WR3HQN
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (C115206) has no scheduled match in Travelink
+DEBUG
+1: 79pnr:3087510 MZNXTM pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:18.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117774619
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 18.6
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 44.7
+DEBUG
+1: tkt:5117774619 seat:91 tx:44.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:18.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117774620
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 18.6
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 44.7
+DEBUG
+1: tkt:5117774620 seat:91 tx:44.7 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821713
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117821713 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:182 tx:89.4tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no MZNXTM
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (MZNXTM/15-JAN-18/C116669 )relates to multiple PNRs in Travelink
+DEBUG
+1: 80pnr:3087595 WSJ7RQ pnr creation dt:13-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:0 ubtx:43.48 remtx:21.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	137
+DEBUG
+1: Ticket No 5117821707
+DEBUG
+1: UB Tax 43.48
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 21.2
+DEBUG
+1: Tkt Seat Amt 137
+DEBUG
+1: Tkt Tax Amt 64.68
+DEBUG
+1: tkt:5117821707 seat:137 tx:64.68 airl:125
+DEBUG
+1: in gbtx:0 ubtx:43.48 remtx:21.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	137
+DEBUG
+1: Ticket No 5117821708
+DEBUG
+1: UB Tax 43.48
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 21.2
+DEBUG
+1: Tkt Seat Amt 137
+DEBUG
+1: Tkt Tax Amt 64.68
+DEBUG
+1: tkt:5117821708 seat:137 tx:64.68 airl:125
+DEBUG
+1: -->stella pnr costs, seat:274 tx:129.36tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no WSJ7RQ
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (C116617) has no scheduled match in Travelink
+DEBUG
+1: 81pnr:3087741 WW5AMA pnr creation dt:13-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:18.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	138
+DEBUG
+1: Ticket No 5117821724
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 18.6
+DEBUG
+1: Tkt Seat Amt 138
+DEBUG
+1: Tkt Tax Amt 44.7
+DEBUG
+1: tkt:5117821724 seat:138 tx:44.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:18.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	138
+DEBUG
+1: Ticket No 5117821725
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 18.6
+DEBUG
+1: Tkt Seat Amt 138
+DEBUG
+1: Tkt Tax Amt 44.7
+DEBUG
+1: tkt:5117821725 seat:138 tx:44.7 airl:125
+DEBUG
+1: -->stella pnr costs, seat:276 tx:89.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no WW5AMA
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (C116622) has no scheduled match in Travelink
+DEBUG
+1: 82pnr:3087494 O22OLF pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:13.74 remtx:244.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	290
+DEBUG
+1: Ticket No 5117752864
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 244.6
+DEBUG
+1: Tkt Seat Amt 290
+DEBUG
+1: Tkt Tax Amt 333.34
+DEBUG
+1: tkt:5117752864 seat:290 tx:333.34 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.74 remtx:244.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	290
+DEBUG
+1: Ticket No 5117752865
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 244.6
+DEBUG
+1: Tkt Seat Amt 290
+DEBUG
+1: Tkt Tax Amt 333.34
+DEBUG
+1: tkt:5117752865 seat:290 tx:333.34 airl:176
+DEBUG
+1: -->stella pnr costs, seat:580 tx:666.68tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no O22OLF
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (O22OLF/15-JAN-18/C116622 )relates to multiple PNRs in Travelink
+DEBUG
+1: 83pnr:3087524 QDNCL2 pnr creation dt:27-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:14.87 remtx:299.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	240
+DEBUG
+1: Ticket No 5117779782
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 299.6
+DEBUG
+1: Tkt Seat Amt 240
+DEBUG
+1: Tkt Tax Amt 392.47
+DEBUG
+1: tkt:5117779782 seat:240 tx:392.47 airl:176
+DEBUG
+1: in gbtx:78 ubtx:14.87 remtx:299.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	240
+DEBUG
+1: Ticket No 5117779783
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 299.6
+DEBUG
+1: Tkt Seat Amt 240
+DEBUG
+1: Tkt Tax Amt 392.47
+DEBUG
+1: tkt:5117779783 seat:240 tx:392.47 airl:176
+DEBUG
+1: -->stella pnr costs, seat:480 tx:784.94tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no QDNCL2
+DEBUG
+1: cmain.pnr_creation_date27-OCT-17
+DEBUG
+1: Stella Booking  (L115652) has no scheduled match in Travelink
+DEBUG
+1: 84pnr:3087526 LTVXSF pnr creation dt:04-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.46 remtx:228.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	280
+DEBUG
+1: Ticket No 5117779784
+DEBUG
+1: UB Tax 13.46
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 228.6
+DEBUG
+1: Tkt Seat Amt 280
+DEBUG
+1: Tkt Tax Amt 317.06
+DEBUG
+1: tkt:5117779784 seat:280 tx:317.06 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.46 remtx:228.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	280
+DEBUG
+1: Ticket No 5117779785
+DEBUG
+1: UB Tax 13.46
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 228.6
+DEBUG
+1: Tkt Seat Amt 280
+DEBUG
+1: Tkt Tax Amt 317.06
+DEBUG
+1: tkt:5117779785 seat:280 tx:317.06 airl:176
+DEBUG
+1: -->stella pnr costs, seat:560 tx:634.12tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no LTVXSF
+DEBUG
+1: cmain.pnr_creation_date04-OCT-17
+DEBUG
+1: Stella Booking  (L115349) has no scheduled match in Travelink
+DEBUG
+1: 85pnr:3087534 PO5H88 pnr creation dt:10-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779790
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779790 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779791
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779791 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779792
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779792 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779793
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779793 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779794
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779794 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779795
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779795 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779796
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779796 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779797
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779797 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779798
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779798 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779799
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779799 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779800
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779800 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779801
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779801 seat:659 tx:370 airl:932
+DEBUG
+1: in gbtx:150 ubtx:13.1 remtx:206.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	659
+DEBUG
+1: Ticket No 5117779802
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 206.9
+DEBUG
+1: Tkt Seat Amt 659
+DEBUG
+1: Tkt Tax Amt 370
+DEBUG
+1: tkt:5117779802 seat:659 tx:370 airl:932
+DEBUG
+1: -->stella pnr costs, seat:8567 tx:4810tol st:0tol tx:39
+DEBUG
+1: cmain.pnr_no PO5H88
+DEBUG
+1: cmain.pnr_creation_date10-JAN-18
+DEBUG
+1: Stella Booking  (L113051) has no scheduled match in Travelink
+DEBUG
+1: 86pnr:3087733 OBYGXV pnr creation dt:12-MAY-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:14.87 remtx:276.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	218
+DEBUG
+1: Ticket No 5117826553
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 276.3
+DEBUG
+1: Tkt Seat Amt 218
+DEBUG
+1: Tkt Tax Amt 366.17
+DEBUG
+1: tkt:5117826553 seat:218 tx:366.17 airl:176
+DEBUG
+1: in gbtx:75 ubtx:14.87 remtx:276.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	218
+DEBUG
+1: Ticket No 5117826554
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 276.3
+DEBUG
+1: Tkt Seat Amt 218
+DEBUG
+1: Tkt Tax Amt 366.17
+DEBUG
+1: tkt:5117826554 seat:218 tx:366.17 airl:176
+DEBUG
+1: in gbtx:0 ubtx:14.87 remtx:18.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	22
+DEBUG
+1: Ticket No 5117826555
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 18.5
+DEBUG
+1: Tkt Seat Amt 22
+DEBUG
+1: Tkt Tax Amt 33.37
+DEBUG
+1: tkt:5117826555 seat:22 tx:33.37 airl:176
+DEBUG
+1: -->stella pnr costs, seat:458 tx:765.71tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no OBYGXV
+DEBUG
+1: cmain.pnr_creation_date12-MAY-17
+DEBUG
+1: Stella Booking  (L113403) has no scheduled match in Travelink
+DEBUG
+1: 87pnr:3087736 OLO7D2 pnr creation dt:11-AUG-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:193.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	253
+DEBUG
+1: Ticket No 5117826556
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 193.7
+DEBUG
+1: Tkt Seat Amt 253
+DEBUG
+1: Tkt Tax Amt 282.04
+DEBUG
+1: tkt:5117826556 seat:253 tx:282.04 airl:157
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:193.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	253
+DEBUG
+1: Ticket No 5117826557
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 193.7
+DEBUG
+1: Tkt Seat Amt 253
+DEBUG
+1: Tkt Tax Amt 282.04
+DEBUG
+1: tkt:5117826557 seat:253 tx:282.04 airl:157
+DEBUG
+1: -->stella pnr costs, seat:506 tx:564.08tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no OLO7D2
+DEBUG
+1: cmain.pnr_creation_date11-AUG-17
+DEBUG
+1: -->Travelink accrual:seat:1016 tax:119.4 pnr:0
+DEBUG
+1: seatamt outside tols
+DEBUG
+1: tax outside tols
+DEBUG
+1: Stella Booking  (L113403) has no scheduled match in Travelink
+DEBUG
+1: 88pnr:3087763 UPVFEE pnr creation dt:21-AUG-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:199.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	364
+DEBUG
+1: Ticket No 5117826581
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 199.8
+DEBUG
+1: Tkt Seat Amt 364
+DEBUG
+1: Tkt Tax Amt 288.14
+DEBUG
+1: tkt:5117826581 seat:364 tx:288.14 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826582
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826582 seat:0 tx:0 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:199.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	364
+DEBUG
+1: Ticket No 5117826583
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 199.8
+DEBUG
+1: Tkt Seat Amt 364
+DEBUG
+1: Tkt Tax Amt 288.14
+DEBUG
+1: tkt:5117826583 seat:364 tx:288.14 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826584
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826584 seat:0 tx:0 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:199.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	364
+DEBUG
+1: Ticket No 5117826585
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 199.8
+DEBUG
+1: Tkt Seat Amt 364
+DEBUG
+1: Tkt Tax Amt 288.14
+DEBUG
+1: tkt:5117826585 seat:364 tx:288.14 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826586
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826586 seat:0 tx:0 airl:176
+DEBUG
+1: -->stella pnr costs, seat:1092 tx:864.42tol st:0tol tx:18
+DEBUG
+1: cmain.pnr_no UPVFEE
+DEBUG
+1: cmain.pnr_creation_date21-AUG-17
+DEBUG
+1: Stella Booking  (L114756) has no scheduled match in Travelink
+DEBUG
+1: 89pnr:3087814 NOHH2Y pnr creation dt:15-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:19.3 remtx:320.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	246
+DEBUG
+1: Ticket No 5117837213
+DEBUG
+1: UB Tax 19.3
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 320.4
+DEBUG
+1: Tkt Seat Amt 246
+DEBUG
+1: Tkt Tax Amt 417.7
+DEBUG
+1: tkt:5117837213 seat:246 tx:417.7 airl:75
+DEBUG
+1: in gbtx:78 ubtx:19.3 remtx:320.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	246
+DEBUG
+1: Ticket No 5117837214
+DEBUG
+1: UB Tax 19.3
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 320.4
+DEBUG
+1: Tkt Seat Amt 246
+DEBUG
+1: Tkt Tax Amt 417.7
+DEBUG
+1: tkt:5117837214 seat:246 tx:417.7 airl:75
+DEBUG
+1: -->stella pnr costs, seat:492 tx:835.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NOHH2Y
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (L116573) has no scheduled match in Travelink
+DEBUG
+1: 90pnr:3086931 JGL4FH pnr creation dt:19-SEP-17?18 br:HAJS reas:15-JAN-18
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:233
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	314
+DEBUG
+1: Ticket No 5117710216
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 233
+DEBUG
+1: Tkt Seat Amt 314
+DEBUG
+1: Tkt Tax Amt 352.91
+DEBUG
+1: tkt:5117710216 seat:314 tx:352.91 airl:125
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:233
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	314
+DEBUG
+1: Ticket No 5117710217
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 233
+DEBUG
+1: Tkt Seat Amt 314
+DEBUG
+1: Tkt Tax Amt 352.91
+DEBUG
+1: tkt:5117710217 seat:314 tx:352.91 airl:125
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:233
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	314
+DEBUG
+1: Ticket No 5117710218
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 233
+DEBUG
+1: Tkt Seat Amt 314
+DEBUG
+1: Tkt Tax Amt 352.91
+DEBUG
+1: tkt:5117710218 seat:314 tx:352.91 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117710219
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117710219 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:942 tx:1058.73tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no JGL4FH
+DEBUG
+1: cmain.pnr_creation_date19-SEP-17
+DEBUG
+1: Stella Booking  (L115130) has no scheduled match in Travelink
+DEBUG
+1: 91pnr:3087381 Q84SZY pnr creation dt:12-JAN-18?18 br:USAC reas:
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	726
+DEBUG
+1: Ticket No 5117710236
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 726
+DEBUG
+1: Tkt Tax Amt 320.61
+DEBUG
+1: tkt:5117710236 seat:726 tx:320.61 airl:125
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	726
+DEBUG
+1: Ticket No 5117710237
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 726
+DEBUG
+1: Tkt Tax Amt 320.61
+DEBUG
+1: tkt:5117710237 seat:726 tx:320.61 airl:125
+DEBUG
+1: -->stella pnr costs, seat:1452 tx:641.22tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no Q84SZY
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella pnr / booking ref (Q84SZY/12-JAN-18/L115130 )relates to multiple PNRs in Travelink
+DEBUG
+1: 92pnr:3087589 Q442N7 pnr creation dt:22-JUL-17?18 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	72
+DEBUG
+1: Ticket No 5117779817
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 72
+DEBUG
+1: Tkt Tax Amt 363.8
+DEBUG
+1: tkt:5117779817 seat:72 tx:363.8 airl:932
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	72
+DEBUG
+1: Ticket No 5117779818
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 72
+DEBUG
+1: Tkt Tax Amt 363.8
+DEBUG
+1: tkt:5117779818 seat:72 tx:363.8 airl:932
+DEBUG
+1: -->stella pnr costs, seat:144 tx:727.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no Q442N7
+DEBUG
+1: cmain.pnr_creation_date22-JUL-17
+DEBUG
+1: Stella pnr / booking ref (Q442N7/22-JUL-17/L115130 )relates to multiple PNRs in Travelink
+DEBUG
+1: 93pnr:3087761 UIV9RV pnr creation dt:31-JUL-17?18 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:249.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1
+DEBUG
+1: Ticket No 5117826579
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 249.7
+DEBUG
+1: Tkt Seat Amt 1
+DEBUG
+1: Tkt Tax Amt 337.8
+DEBUG
+1: tkt:5117826579 seat:1 tx:337.8 airl:932
+DEBUG
+1: in gbtx:75 ubtx:13.1 remtx:249.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	1
+DEBUG
+1: Ticket No 5117826580
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 249.7
+DEBUG
+1: Tkt Seat Amt 1
+DEBUG
+1: Tkt Tax Amt 337.8
+DEBUG
+1: tkt:5117826580 seat:1 tx:337.8 airl:932
+DEBUG
+1: -->stella pnr costs, seat:2 tx:675.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no UIV9RV
+DEBUG
+1: cmain.pnr_creation_date31-JUL-17
+DEBUG
+1: Stella pnr / booking ref (UIV9RV/31-JUL-17/L115130 )relates to multiple PNRs in Travelink
+DEBUG
+1: 94pnr:3087397 SJPXG5 pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:13.74 remtx:521.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	938
+DEBUG
+1: Ticket No 5117731559
+DEBUG
+1: UB Tax 13.74
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 521.6
+DEBUG
+1: Tkt Seat Amt 938
+DEBUG
+1: Tkt Tax Amt 610.34
+DEBUG
+1: tkt:5117731559 seat:938 tx:610.34 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117731560
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117731560 seat:0 tx:0 airl:176
+DEBUG
+1: -->stella pnr costs, seat:938 tx:610.34tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no SJPXG5
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116602) has no scheduled match in Travelink
+DEBUG
+1: 95pnr:3087697 POZV7T pnr creation dt:29-APR-17?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:374.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	559
+DEBUG
+1: Ticket No 5117782416
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 374.3
+DEBUG
+1: Tkt Seat Amt 559
+DEBUG
+1: Tkt Tax Amt 494.21
+DEBUG
+1: tkt:5117782416 seat:559 tx:494.21 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782417
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782417 seat:0 tx:0 airl:125
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:374.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	559
+DEBUG
+1: Ticket No 5117782418
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 374.3
+DEBUG
+1: Tkt Seat Amt 559
+DEBUG
+1: Tkt Tax Amt 494.21
+DEBUG
+1: tkt:5117782418 seat:559 tx:494.21 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782419
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782419 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:1118 tx:988.42tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no POZV7T
+DEBUG
+1: cmain.pnr_creation_date29-APR-17
+DEBUG
+1: Stella Booking  (Z113205) has no scheduled match in Travelink
+DEBUG
+1: 96pnr:3087677 NNTHOA pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:28.3
+DEBUG
+1:  v_selling_fare_amt	135  53
+DEBUG
+1: v_published_fare_amt at 135	53
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821719
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 28.3
+DEBUG
+1: Tkt Seat Amt 53
+DEBUG
+1: Tkt Tax Amt 54.4
+DEBUG
+1: tkt:5117821719 seat:53 tx:54.4 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:28.3
+DEBUG
+1:  v_selling_fare_amt	135  53
+DEBUG
+1: v_published_fare_amt at 135	53
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821718
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 28.3
+DEBUG
+1: Tkt Seat Amt 53
+DEBUG
+1: Tkt Tax Amt 54.4
+DEBUG
+1: tkt:5117821718 seat:53 tx:54.4 airl:125
+DEBUG
+1: -->stella pnr costs, seat:106 tx:108.8tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NNTHOA
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116681) has no scheduled match in Travelink
+DEBUG
+1: 97pnr:3087841 NVIPTI pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	148
+DEBUG
+1: Ticket No 5117821730
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.4
+DEBUG
+1: Tkt Seat Amt 148
+DEBUG
+1: Tkt Tax Amt 47.5
+DEBUG
+1: tkt:5117821730 seat:148 tx:47.5 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	148
+DEBUG
+1: Ticket No 5117821731
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.4
+DEBUG
+1: Tkt Seat Amt 148
+DEBUG
+1: Tkt Tax Amt 47.5
+DEBUG
+1: tkt:5117821731 seat:148 tx:47.5 airl:125
+DEBUG
+1: -->stella pnr costs, seat:296 tx:95tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NVIPTI
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116609) has no scheduled match in Travelink
+DEBUG
+1: 98pnr:3087451 NCYLKM pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:244.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	179
+DEBUG
+1: Ticket No 5117752831
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 244.6
+DEBUG
+1: Tkt Seat Amt 179
+DEBUG
+1: Tkt Tax Amt 332.94
+DEBUG
+1: tkt:5117752831 seat:179 tx:332.94 airl:176
+DEBUG
+1: -->stella pnr costs, seat:179 tx:332.94tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NCYLKM
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NCYLKM/15-JAN-18/C116609 )relates to multiple PNRs in Travelink
+DEBUG
+1: 99pnr:3087467 NH73FV pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:221.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	110
+DEBUG
+1: Ticket No 5117752837
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 221.3
+DEBUG
+1: Tkt Seat Amt 110
+DEBUG
+1: Tkt Tax Amt 341.21
+DEBUG
+1: tkt:5117752837 seat:110 tx:341.21 airl:71
+DEBUG
+1: -->stella pnr costs, seat:110 tx:341.21tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NH73FV
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NH73FV/15-JAN-18/C116609 )relates to multiple PNRs in Travelink
+DEBUG
+1: 100pnr:3087489 NY348J pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:39.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	649
+DEBUG
+1: Ticket No 5117752859
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 39.9
+DEBUG
+1: Tkt Seat Amt 649
+DEBUG
+1: Tkt Tax Amt 159.81
+DEBUG
+1: tkt:5117752859 seat:649 tx:159.81 airl:957
+DEBUG
+1: -->stella pnr costs, seat:649 tx:159.81tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NY348J
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NY348J/15-JAN-18/C116609 )relates to multiple PNRs in Travelink
+DEBUG
+1: 101pnr:3087490 NZ8IMX pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	200
+DEBUG
+1: Ticket No 5117752860
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 200
+DEBUG
+1: Tkt Tax Amt 398.61
+DEBUG
+1: tkt:5117752860 seat:200 tx:398.61 airl:1
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	200
+DEBUG
+1: Ticket No 5117752861
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 200
+DEBUG
+1: Tkt Tax Amt 398.61
+DEBUG
+1: tkt:5117752861 seat:200 tx:398.61 airl:1
+DEBUG
+1: -->stella pnr costs, seat:400 tx:797.22tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NZ8IMX
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NZ8IMX/15-JAN-18/C116609 )relates to multiple PNRs in Travelink
+DEBUG
+1: 102pnr:3087771 VHADHJ pnr creation dt:02-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:202.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	325
+DEBUG
+1: Ticket No 5117826589
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 202.9
+DEBUG
+1: Tkt Seat Amt 325
+DEBUG
+1: Tkt Tax Amt 291.24
+DEBUG
+1: tkt:5117826589 seat:325 tx:291.24 airl:157
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826590
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826590 seat:0 tx:0 airl:157
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:202.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	325
+DEBUG
+1: Ticket No 5117826591
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 202.9
+DEBUG
+1: Tkt Seat Amt 325
+DEBUG
+1: Tkt Tax Amt 291.24
+DEBUG
+1: tkt:5117826591 seat:325 tx:291.24 airl:157
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826592
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826592 seat:0 tx:0 airl:157
+DEBUG
+1: -->stella pnr costs, seat:650 tx:582.48tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no VHADHJ
+DEBUG
+1: cmain.pnr_creation_date02-OCT-17
+DEBUG
+1: Stella Booking  (L115310) has no scheduled match in Travelink
+DEBUG
+1: 103pnr:3087781 OEUL79 pnr creation dt:21-JUL-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:99.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	351
+DEBUG
+1: Ticket No 5117837197
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 99.2
+DEBUG
+1: Tkt Seat Amt 351
+DEBUG
+1: Tkt Tax Amt 187.54
+DEBUG
+1: tkt:5117837197 seat:351 tx:187.54 airl:607
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:99.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	351
+DEBUG
+1: Ticket No 5117837198
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 99.2
+DEBUG
+1: Tkt Seat Amt 351
+DEBUG
+1: Tkt Tax Amt 187.54
+DEBUG
+1: tkt:5117837198 seat:351 tx:187.54 airl:607
+DEBUG
+1: -->stella pnr costs, seat:702 tx:375.08tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no OEUL79
+DEBUG
+1: cmain.pnr_creation_date21-JUL-17
+DEBUG
+1: Stella Booking  (L114338) has no scheduled match in Travelink
+DEBUG
+1: 104pnr:3087804 OQJ42V pnr creation dt:09-JUN-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837203
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837203 seat:31 tx:328.51 airl:706
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	31
+DEBUG
+1: Ticket No 5117837204
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 31
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117837204 seat:31 tx:328.51 airl:706
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:208.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	23
+DEBUG
+1: Ticket No 5117837205
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 208.6
+DEBUG
+1: Tkt Seat Amt 23
+DEBUG
+1: Tkt Tax Amt 253.51
+DEBUG
+1: tkt:5117837205 seat:23 tx:253.51 airl:706
+DEBUG
+1: -->stella pnr costs, seat:85 tx:910.53tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no OQJ42V
+DEBUG
+1: cmain.pnr_creation_date09-JUN-17
+DEBUG
+1: Stella Booking  (L113783) has no scheduled match in Travelink
+DEBUG
+1: 105pnr:3087568 M64DO5 pnr creation dt:14-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117821704
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 35.1
+DEBUG
+1: tkt:5117821704 seat:91 tx:35.1 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: Ticket No 5117821705
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 35.1
+DEBUG
+1: tkt:5117821705 seat:91 tx:35.1 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	7
+DEBUG
+1: Ticket No 5117821706
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 9
+DEBUG
+1: Tkt Seat Amt 7
+DEBUG
+1: Tkt Tax Amt 22.1
+DEBUG
+1: tkt:5117821706 seat:7 tx:22.1 airl:125
+DEBUG
+1: -->stella pnr costs, seat:189 tx:92.3tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no M64DO5
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella pnr / booking ref (M64DO5/14-JAN-18/L113783 )relates to multiple PNRs in Travelink
+DEBUG
+1: 106pnr:3087759 TOERDF pnr creation dt:17-APR-17?18 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:261.1
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	140
+DEBUG
+1: Ticket No 5117826577
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 261.1
+DEBUG
+1: Tkt Seat Amt 140
+DEBUG
+1: Tkt Tax Amt 381.01
+DEBUG
+1: tkt:5117826577 seat:140 tx:381.01 airl:932
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:261.1
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	140
+DEBUG
+1: Ticket No 5117826578
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 261.1
+DEBUG
+1: Tkt Seat Amt 140
+DEBUG
+1: Tkt Tax Amt 381.01
+DEBUG
+1: tkt:5117826578 seat:140 tx:381.01 airl:932
+DEBUG
+1: -->stella pnr costs, seat:280 tx:762.02tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no TOERDF
+DEBUG
+1: cmain.pnr_creation_date17-APR-17
+DEBUG
+1: Stella pnr / booking ref (TOERDF/17-APR-17/L113783 )relates to multiple PNRs in Travelink
+DEBUG
+1: 107pnr:3087591 J8GZ7P pnr creation dt:13-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:74.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	740
+DEBUG
+1: Ticket No 5117782371
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 74.5
+DEBUG
+1: Tkt Seat Amt 740
+DEBUG
+1: Tkt Tax Amt 170.19
+DEBUG
+1: tkt:5117782371 seat:740 tx:170.19 airl:618
+DEBUG
+1: in gbtx:78 ubtx:17.69 remtx:74.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	740
+DEBUG
+1: Ticket No 5117782372
+DEBUG
+1: UB Tax 17.69
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 74.5
+DEBUG
+1: Tkt Seat Amt 740
+DEBUG
+1: Tkt Tax Amt 170.19
+DEBUG
+1: tkt:5117782372 seat:740 tx:170.19 airl:618
+DEBUG
+1: -->stella pnr costs, seat:1480 tx:340.38tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no J8GZ7P
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (Z116640) has no scheduled match in Travelink
+DEBUG
+1: 108pnr:3087703 WQTTWH pnr creation dt:04-JUL-17?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:81.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	580
+DEBUG
+1: Ticket No 5117782421
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 81.6
+DEBUG
+1: Tkt Seat Amt 580
+DEBUG
+1: Tkt Tax Amt 169.94
+DEBUG
+1: tkt:5117782421 seat:580 tx:169.94 airl:618
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:81.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	580
+DEBUG
+1: Ticket No 5117782420
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 81.6
+DEBUG
+1: Tkt Seat Amt 580
+DEBUG
+1: Tkt Tax Amt 169.94
+DEBUG
+1: tkt:5117782420 seat:580 tx:169.94 airl:618
+DEBUG
+1: -->stella pnr costs, seat:1160 tx:339.88tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no WQTTWH
+DEBUG
+1: cmain.pnr_creation_date04-JUL-17
+DEBUG
+1: Stella Booking  (Z114106) has no scheduled match in Travelink
+DEBUG
+1: 109pnr:3087708 NCYNSQ pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:122.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	392
+DEBUG
+1: Ticket No 5117835695
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 122.4
+DEBUG
+1: Tkt Seat Amt 392
+DEBUG
+1: Tkt Tax Amt 245.31
+DEBUG
+1: tkt:5117835695 seat:392 tx:245.31 airl:607
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:122.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	392
+DEBUG
+1: Ticket No 5117782422
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 122.4
+DEBUG
+1: Tkt Seat Amt 392
+DEBUG
+1: Tkt Tax Amt 245.31
+DEBUG
+1: tkt:5117782422 seat:392 tx:245.31 airl:607
+DEBUG
+1: -->stella pnr costs, seat:784 tx:490.62tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no NCYNSQ
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116673) has no scheduled match in Travelink
+DEBUG
+1: 110pnr:3087723 NEQI8C pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:56.04 remtx:455.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	427
+DEBUG
+1: Ticket No 5117835701
+DEBUG
+1: UB Tax 56.04
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 455.2
+DEBUG
+1: Tkt Seat Amt 427
+DEBUG
+1: Tkt Tax Amt 589.24
+DEBUG
+1: tkt:5117835701 seat:427 tx:589.24 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835702
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835702 seat:0 tx:0 airl:125
+DEBUG
+1: in gbtx:78 ubtx:56.04 remtx:455.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	427
+DEBUG
+1: Ticket No 5117835703
+DEBUG
+1: UB Tax 56.04
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 455.2
+DEBUG
+1: Tkt Seat Amt 427
+DEBUG
+1: Tkt Tax Amt 589.24
+DEBUG
+1: tkt:5117835703 seat:427 tx:589.24 airl:125
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835704
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835704 seat:0 tx:0 airl:125
+DEBUG
+1: -->stella pnr costs, seat:854 tx:1178.48tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no NEQI8C
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116674) has no scheduled match in Travelink
+DEBUG
+1: 111pnr:3087783 L8O7QG pnr creation dt:14-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:318.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	580
+DEBUG
+1: Ticket No 5117835709
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 318.6
+DEBUG
+1: Tkt Seat Amt 580
+DEBUG
+1: Tkt Tax Amt 441.51
+DEBUG
+1: tkt:5117835709 seat:580 tx:441.51 airl:160
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835710
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835710 seat:0 tx:0 airl:160
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:318.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	580
+DEBUG
+1: Ticket No 5117835711
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 318.6
+DEBUG
+1: Tkt Seat Amt 580
+DEBUG
+1: Tkt Tax Amt 441.51
+DEBUG
+1: tkt:5117835711 seat:580 tx:441.51 airl:160
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835712
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835712 seat:0 tx:0 airl:160
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:283.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	460
+DEBUG
+1: Ticket No 5117835715
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 283.6
+DEBUG
+1: Tkt Seat Amt 460
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117835715 seat:460 tx:328.51 airl:160
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835716
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835716 seat:0 tx:0 airl:160
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:283.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	460
+DEBUG
+1: Ticket No 5117835713
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 283.6
+DEBUG
+1: Tkt Seat Amt 460
+DEBUG
+1: Tkt Tax Amt 328.51
+DEBUG
+1: tkt:5117835713 seat:460 tx:328.51 airl:160
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835714
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835714 seat:0 tx:0 airl:160
+DEBUG
+1: -->stella pnr costs, seat:2080 tx:1540.04tol st:0tol tx:24
+DEBUG
+1: cmain.pnr_no L8O7QG
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (Z116677) has no scheduled match in Travelink
+DEBUG
+1: 112pnr:3087791 PXN45Y pnr creation dt:10-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:150 ubtx:13.34 remtx:945.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	3473
+DEBUG
+1: Ticket No 5117835719
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 945.7
+DEBUG
+1: Tkt Seat Amt 3473
+DEBUG
+1: Tkt Tax Amt 1109.04
+DEBUG
+1: tkt:5117835719 seat:3473 tx:1109.04 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835720
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835720 seat:0 tx:0 airl:176
+DEBUG
+1: in gbtx:150 ubtx:13.34 remtx:945.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	3473
+DEBUG
+1: Ticket No 5117835717
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 945.7
+DEBUG
+1: Tkt Seat Amt 3473
+DEBUG
+1: Tkt Tax Amt 1109.04
+DEBUG
+1: tkt:5117835717 seat:3473 tx:1109.04 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835718
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835718 seat:0 tx:0 airl:176
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:30.3
+DEBUG
+1:  v_selling_fare_amt	135  362
+DEBUG
+1: v_published_fare_amt at 135	362
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835722
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 30.3
+DEBUG
+1: Tkt Seat Amt 362
+DEBUG
+1: Tkt Tax Amt 30.3
+DEBUG
+1: tkt:5117835722 seat:362 tx:30.3 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:30.3
+DEBUG
+1:  v_selling_fare_amt	135  362
+DEBUG
+1: v_published_fare_amt at 135	362
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835721
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 30.3
+DEBUG
+1: Tkt Seat Amt 362
+DEBUG
+1: Tkt Tax Amt 30.3
+DEBUG
+1: tkt:5117835721 seat:362 tx:30.3 airl:81
+DEBUG
+1: -->stella pnr costs, seat:7670 tx:2278.68tol st:0tol tx:18
+DEBUG
+1: cmain.pnr_no PXN45Y
+DEBUG
+1: cmain.pnr_creation_date10-JAN-18
+DEBUG
+1: Stella Booking  (Z116641) has no scheduled match in Travelink
+DEBUG
+1: 113pnr:3087826 NHGQYV pnr creation dt:15-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:53.8
+DEBUG
+1:  v_selling_fare_amt	135  261
+DEBUG
+1: v_published_fare_amt at 135	261
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835732
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 53.8
+DEBUG
+1: Tkt Seat Amt 261
+DEBUG
+1: Tkt Tax Amt 53.8
+DEBUG
+1: tkt:5117835732 seat:261 tx:53.8 airl:795
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:53.8
+DEBUG
+1:  v_selling_fare_amt	135  261
+DEBUG
+1: v_published_fare_amt at 135	261
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835733
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 53.8
+DEBUG
+1: Tkt Seat Amt 261
+DEBUG
+1: Tkt Tax Amt 53.8
+DEBUG
+1: tkt:5117835733 seat:261 tx:53.8 airl:795
+DEBUG
+1: in gbtx:78 ubtx:13.34 remtx:96.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	860
+DEBUG
+1: Ticket No 5117835734
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 96.7
+DEBUG
+1: Tkt Seat Amt 860
+DEBUG
+1: Tkt Tax Amt 188.04
+DEBUG
+1: tkt:5117835734 seat:860 tx:188.04 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835735
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835735 seat:0 tx:0 airl:618
+DEBUG
+1: in gbtx:78 ubtx:13.34 remtx:96.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	860
+DEBUG
+1: Ticket No 5117835736
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 96.7
+DEBUG
+1: Tkt Seat Amt 860
+DEBUG
+1: Tkt Tax Amt 188.04
+DEBUG
+1: tkt:5117835736 seat:860 tx:188.04 airl:618
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117835737
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117835737 seat:0 tx:0 airl:618
+DEBUG
+1: -->stella pnr costs, seat:2242 tx:483.68tol st:0tol tx:17
+DEBUG
+1: cmain.pnr_no NHGQYV
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (Z116676) has no scheduled match in Travelink
+DEBUG
+1: 114pnr:3087380 RUW3VO pnr creation dt:14-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	53
+DEBUG
+1: Ticket No 1824192336
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 53
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:1824192336 seat:53 tx:0 airl:74
+DEBUG
+1: -->stella pnr costs, seat:53 tx:0tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no RUW3VO
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (C116550) has no scheduled match in Travelink
+DEBUG
+1: 115pnr:3087547 NAGR5S pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:28.3
+DEBUG
+1:  v_selling_fare_amt	135  91
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821695
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 28.3
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 54.4
+DEBUG
+1: tkt:5117821695 seat:91 tx:54.4 airl:75
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:28.3
+DEBUG
+1:  v_selling_fare_amt	135  91
+DEBUG
+1: v_published_fare_amt at 135	91
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821696
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 28.3
+DEBUG
+1: Tkt Seat Amt 91
+DEBUG
+1: Tkt Tax Amt 54.4
+DEBUG
+1: tkt:5117821696 seat:91 tx:54.4 airl:75
+DEBUG
+1: -->stella pnr costs, seat:182 tx:108.8tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NAGR5S
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116670) has no scheduled match in Travelink
+DEBUG
+1: 116pnr:3087828 NUAHSW pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:22.6 remtx:51.4
+DEBUG
+1:  v_selling_fare_amt	135  141
+DEBUG
+1: v_published_fare_amt at 135	141
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821726
+DEBUG
+1: UB Tax 22.6
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 51.4
+DEBUG
+1: Tkt Seat Amt 141
+DEBUG
+1: Tkt Tax Amt 87
+DEBUG
+1: tkt:5117821726 seat:141 tx:87 airl:480
+DEBUG
+1: in gbtx:13 ubtx:22.6 remtx:51.4
+DEBUG
+1:  v_selling_fare_amt	135  141
+DEBUG
+1: v_published_fare_amt at 135	141
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821727
+DEBUG
+1: UB Tax 22.6
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 51.4
+DEBUG
+1: Tkt Seat Amt 141
+DEBUG
+1: Tkt Tax Amt 87
+DEBUG
+1: tkt:5117821727 seat:141 tx:87 airl:480
+DEBUG
+1: -->stella pnr costs, seat:282 tx:174tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no NUAHSW
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116687) has no scheduled match in Travelink
+DEBUG
+1: 117pnr:3087864 O6TS7P pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:28.1
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	95
+DEBUG
+1: Ticket No 5117821740
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 28.1
+DEBUG
+1: Tkt Seat Amt 95
+DEBUG
+1: Tkt Tax Amt 54.2
+DEBUG
+1: tkt:5117821740 seat:95 tx:54.2 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:28.1
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	95
+DEBUG
+1: Ticket No 5117821741
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 28.1
+DEBUG
+1: Tkt Seat Amt 95
+DEBUG
+1: Tkt Tax Amt 54.2
+DEBUG
+1: tkt:5117821741 seat:95 tx:54.2 airl:125
+DEBUG
+1: -->stella pnr costs, seat:190 tx:108.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no O6TS7P
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116696) has no scheduled match in Travelink
+DEBUG
+1: 118pnr:3087452 NDPGF3 pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:78 ubtx:13.34 remtx:463.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	90
+DEBUG
+1: Ticket No 5117752832
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 463.6
+DEBUG
+1: Tkt Seat Amt 90
+DEBUG
+1: Tkt Tax Amt 554.94
+DEBUG
+1: tkt:5117752832 seat:90 tx:554.94 airl:176
+DEBUG
+1: -->stella pnr costs, seat:90 tx:554.94tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NDPGF3
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NDPGF3/15-JAN-18/C116696 )relates to multiple PNRs in Travelink
+DEBUG
+1: 119pnr:3087470 NI2BXM pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:78 ubtx:56.04 remtx:147.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	27
+DEBUG
+1: Ticket No 5117752840
+DEBUG
+1: UB Tax 56.04
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 147.9
+DEBUG
+1: Tkt Seat Amt 27
+DEBUG
+1: Tkt Tax Amt 281.94
+DEBUG
+1: tkt:5117752840 seat:27 tx:281.94 airl:125
+DEBUG
+1: in gbtx:78 ubtx:56.04 remtx:147.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	27
+DEBUG
+1: Ticket No 5117752841
+DEBUG
+1: UB Tax 56.04
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 147.9
+DEBUG
+1: Tkt Seat Amt 27
+DEBUG
+1: Tkt Tax Amt 281.94
+DEBUG
+1: tkt:5117752841 seat:27 tx:281.94 airl:125
+DEBUG
+1: -->stella pnr costs, seat:54 tx:563.88tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NI2BXM
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NI2BXM/15-JAN-18/C116696 )relates to multiple PNRs in Travelink
+DEBUG
+1: 120pnr:3087485 NHUQQO pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:244.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	169
+DEBUG
+1: Ticket No 5117752855
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 244.6
+DEBUG
+1: Tkt Seat Amt 169
+DEBUG
+1: Tkt Tax Amt 332.94
+DEBUG
+1: tkt:5117752855 seat:169 tx:332.94 airl:176
+DEBUG
+1: -->stella pnr costs, seat:169 tx:332.94tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NHUQQO
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NHUQQO/15-JAN-18/C116696 )relates to multiple PNRs in Travelink
+DEBUG
+1: 121pnr:3087395 KAPMIS pnr creation dt:12-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:246
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	379
+DEBUG
+1: Ticket No 5117740275
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 246
+DEBUG
+1: Tkt Seat Amt 379
+DEBUG
+1: Tkt Tax Amt 259.1
+DEBUG
+1: tkt:5117740275 seat:379 tx:259.1 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:246
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	379
+DEBUG
+1: Ticket No 5117740276
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 246
+DEBUG
+1: Tkt Seat Amt 379
+DEBUG
+1: Tkt Tax Amt 259.1
+DEBUG
+1: tkt:5117740276 seat:379 tx:259.1 airl:125
+DEBUG
+1: -->stella pnr costs, seat:758 tx:518.2tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no KAPMIS
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (L112472) has no scheduled match in Travelink
+DEBUG
+1: 122pnr:3087410 PPCWBT pnr creation dt:11-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:44.91 remtx:273.9
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	770
+DEBUG
+1: Ticket No 5117710185
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 273.9
+DEBUG
+1: Tkt Seat Amt 770
+DEBUG
+1: Tkt Tax Amt 318.81
+DEBUG
+1: tkt:5117710185 seat:770 tx:318.81 airl:603
+DEBUG
+1: -->stella pnr costs, seat:770 tx:318.81tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no PPCWBT
+DEBUG
+1: cmain.pnr_creation_date11-JAN-18
+DEBUG
+1: Stella Booking  (L115082) has no scheduled match in Travelink
+DEBUG
+1: 123pnr:3087516 UTHHGJ pnr creation dt:12-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:159.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	425
+DEBUG
+1: Ticket No 5117779774
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 159.7
+DEBUG
+1: Tkt Seat Amt 425
+DEBUG
+1: Tkt Tax Amt 248.04
+DEBUG
+1: tkt:5117779774 seat:425 tx:248.04 airl:160
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:159.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	425
+DEBUG
+1: Ticket No 5117779775
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 159.7
+DEBUG
+1: Tkt Seat Amt 425
+DEBUG
+1: Tkt Tax Amt 248.04
+DEBUG
+1: tkt:5117779775 seat:425 tx:248.04 airl:160
+DEBUG
+1: -->stella pnr costs, seat:850 tx:496.08tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no UTHHGJ
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (L116596) has no scheduled match in Travelink
+DEBUG
+1: 124pnr:3087583 ND3SOY pnr creation dt:05-DEC-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:156 ubtx:44.91 remtx:231.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	638
+DEBUG
+1: Ticket No 5117779811
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 231.8
+DEBUG
+1: Tkt Seat Amt 638
+DEBUG
+1: Tkt Tax Amt 432.71
+DEBUG
+1: tkt:5117779811 seat:638 tx:432.71 airl:125
+DEBUG
+1: in gbtx:156 ubtx:44.91 remtx:231.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	638
+DEBUG
+1: Ticket No 5117779812
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 156
+DEBUG
+1: Remianing Tax 231.8
+DEBUG
+1: Tkt Seat Amt 638
+DEBUG
+1: Tkt Tax Amt 432.71
+DEBUG
+1: tkt:5117779812 seat:638 tx:432.71 airl:125
+DEBUG
+1: -->stella pnr costs, seat:1276 tx:865.42tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no ND3SOY
+DEBUG
+1: cmain.pnr_creation_date05-DEC-17
+DEBUG
+1: Stella Booking  (L116067) has no scheduled match in Travelink
+DEBUG
+1: 125pnr:3087662 L3JJRZ pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:212
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	149
+DEBUG
+1: Ticket No 5117826519
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 212
+DEBUG
+1: Tkt Seat Amt 149
+DEBUG
+1: Tkt Tax Amt 300.34
+DEBUG
+1: tkt:5117826519 seat:149 tx:300.34 airl:125
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:212
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	149
+DEBUG
+1: Ticket No 5117826520
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 212
+DEBUG
+1: Tkt Seat Amt 149
+DEBUG
+1: Tkt Tax Amt 300.34
+DEBUG
+1: tkt:5117826520 seat:149 tx:300.34 airl:125
+DEBUG
+1: -->stella pnr costs, seat:298 tx:600.68tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no L3JJRZ
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116648) has no scheduled match in Travelink
+DEBUG
+1: 126pnr:3087666 L7L7UE pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:64.4
+DEBUG
+1:  v_selling_fare_amt	135  270
+DEBUG
+1: v_published_fare_amt at 135	270
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826524
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 64.4
+DEBUG
+1: Tkt Seat Amt 270
+DEBUG
+1: Tkt Tax Amt 64.4
+DEBUG
+1: tkt:5117826524 seat:270 tx:64.4 airl:781
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:64.4
+DEBUG
+1:  v_selling_fare_amt	135  270
+DEBUG
+1: v_published_fare_amt at 135	270
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826525
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 64.4
+DEBUG
+1: Tkt Seat Amt 270
+DEBUG
+1: Tkt Tax Amt 64.4
+DEBUG
+1: tkt:5117826525 seat:270 tx:64.4 airl:781
+DEBUG
+1: -->stella pnr costs, seat:540 tx:128.8tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no L7L7UE
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116650) has no scheduled match in Travelink
+DEBUG
+1: 127pnr:3087695 L23VQ7 pnr creation dt:14-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:120.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	400
+DEBUG
+1: Ticket No 5117826537
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 120.7
+DEBUG
+1: Tkt Seat Amt 400
+DEBUG
+1: Tkt Tax Amt 243.61
+DEBUG
+1: tkt:5117826537 seat:400 tx:243.61 airl:695
+DEBUG
+1: in gbtx:78 ubtx:44.91 remtx:120.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	400
+DEBUG
+1: Ticket No 5117826538
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 120.7
+DEBUG
+1: Tkt Seat Amt 400
+DEBUG
+1: Tkt Tax Amt 243.61
+DEBUG
+1: tkt:5117826538 seat:400 tx:243.61 airl:695
+DEBUG
+1: -->stella pnr costs, seat:800 tx:487.22tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no L23VQ7
+DEBUG
+1: cmain.pnr_creation_date14-JAN-18
+DEBUG
+1: Stella Booking  (L116646) has no scheduled match in Travelink
+DEBUG
+1: 128pnr:3087715 SNG67B pnr creation dt:26-NOV-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:80.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	499
+DEBUG
+1: Ticket No 5117826545
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 80.6
+DEBUG
+1: Tkt Seat Amt 499
+DEBUG
+1: Tkt Tax Amt 168.94
+DEBUG
+1: tkt:5117826545 seat:499 tx:168.94 airl:607
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:80.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	499
+DEBUG
+1: Ticket No 5117826546
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 80.6
+DEBUG
+1: Tkt Seat Amt 499
+DEBUG
+1: Tkt Tax Amt 168.94
+DEBUG
+1: tkt:5117826546 seat:499 tx:168.94 airl:607
+DEBUG
+1: -->stella pnr costs, seat:998 tx:337.88tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no SNG67B
+DEBUG
+1: cmain.pnr_creation_date26-NOV-17
+DEBUG
+1: Stella Booking  (L115985) has no scheduled match in Travelink
+DEBUG
+1: 129pnr:3087729 NJIUVI pnr creation dt:03-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:150 ubtx:44.91 remtx:118.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	880
+DEBUG
+1: Ticket No 5117826549
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 118.4
+DEBUG
+1: Tkt Seat Amt 880
+DEBUG
+1: Tkt Tax Amt 313.31
+DEBUG
+1: tkt:5117826549 seat:880 tx:313.31 airl:695
+DEBUG
+1: in gbtx:150 ubtx:44.91 remtx:118.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	880
+DEBUG
+1: Ticket No 5117826550
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 150
+DEBUG
+1: Remianing Tax 118.4
+DEBUG
+1: Tkt Seat Amt 880
+DEBUG
+1: Tkt Tax Amt 313.31
+DEBUG
+1: tkt:5117826550 seat:880 tx:313.31 airl:695
+DEBUG
+1: -->stella pnr costs, seat:1760 tx:626.62tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NJIUVI
+DEBUG
+1: cmain.pnr_creation_date03-JAN-18
+DEBUG
+1: Stella Booking  (L116336) has no scheduled match in Travelink
+DEBUG
+1: 130pnr:3087743 PXX932 pnr creation dt:13-OCT-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:166.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	155
+DEBUG
+1: Ticket No 5117826561
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 166.2
+DEBUG
+1: Tkt Seat Amt 155
+DEBUG
+1: Tkt Tax Amt 254.54
+DEBUG
+1: tkt:5117826561 seat:155 tx:254.54 airl:910
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:166.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	155
+DEBUG
+1: Ticket No 5117826562
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 166.2
+DEBUG
+1: Tkt Seat Amt 155
+DEBUG
+1: Tkt Tax Amt 254.54
+DEBUG
+1: tkt:5117826562 seat:155 tx:254.54 airl:910
+DEBUG
+1: -->stella pnr costs, seat:310 tx:509.08tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no PXX932
+DEBUG
+1: cmain.pnr_creation_date13-OCT-17
+DEBUG
+1: Stella Booking  (L115472) has no scheduled match in Travelink
+DEBUG
+1: 131pnr:3087800 VJXZT4 pnr creation dt:02-MAY-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:14.87 remtx:259.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	467
+DEBUG
+1: Ticket No 5117837199
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 259.2
+DEBUG
+1: Tkt Seat Amt 467
+DEBUG
+1: Tkt Tax Amt 349.07
+DEBUG
+1: tkt:5117837199 seat:467 tx:349.07 airl:176
+DEBUG
+1: in gbtx:75 ubtx:14.87 remtx:259.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	467
+DEBUG
+1: Ticket No 5117837200
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 259.2
+DEBUG
+1: Tkt Seat Amt 467
+DEBUG
+1: Tkt Tax Amt 349.07
+DEBUG
+1: tkt:5117837200 seat:467 tx:349.07 airl:176
+DEBUG
+1: -->stella pnr costs, seat:934 tx:698.14tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no VJXZT4
+DEBUG
+1: cmain.pnr_creation_date02-MAY-17
+DEBUG
+1: Stella Booking  (L112557) has no scheduled match in Travelink
+DEBUG
+1: 132pnr:3087384 Q22TRT pnr creation dt:12-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:0 ubtx:14.87 remtx:309.3
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	260
+DEBUG
+1: Ticket No 5117688694
+DEBUG
+1: UB Tax 14.87
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 309.3
+DEBUG
+1: Tkt Seat Amt 260
+DEBUG
+1: Tkt Tax Amt 324.17
+DEBUG
+1: tkt:5117688694 seat:260 tx:324.17 airl:176
+DEBUG
+1: -->stella pnr costs, seat:260 tx:324.17tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no Q22TRT
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella pnr / booking ref (Q22TRT/12-JAN-18/L112557 )relates to multiple PNRs in Travelink
+DEBUG
+1: 133pnr:3087561 JLQVIF pnr creation dt:13-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	125
+DEBUG
+1: Ticket No 5117821701
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9.8
+DEBUG
+1: Tkt Seat Amt 125
+DEBUG
+1: Tkt Tax Amt 35.9
+DEBUG
+1: tkt:5117821701 seat:125 tx:35.9 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:9.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	125
+DEBUG
+1: Ticket No 5117821702
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 9.8
+DEBUG
+1: Tkt Seat Amt 125
+DEBUG
+1: Tkt Tax Amt 35.9
+DEBUG
+1: tkt:5117821702 seat:125 tx:35.9 airl:125
+DEBUG
+1: in gbtx:0 ubtx:13.1 remtx:9.8
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	125
+DEBUG
+1: Ticket No 5117821703
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 9.8
+DEBUG
+1: Tkt Seat Amt 125
+DEBUG
+1: Tkt Tax Amt 22.9
+DEBUG
+1: tkt:5117821703 seat:125 tx:22.9 airl:125
+DEBUG
+1: -->stella pnr costs, seat:375 tx:94.7tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no JLQVIF
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella pnr / booking ref (JLQVIF/13-JAN-18/L112557 )relates to multiple PNRs in Travelink
+DEBUG
+1: 134pnr:3087731 NT7T55 pnr creation dt:12-OCT-17?18 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:206.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	163
+DEBUG
+1: Ticket No 5117826551
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 206.7
+DEBUG
+1: Tkt Seat Amt 163
+DEBUG
+1: Tkt Tax Amt 295.04
+DEBUG
+1: tkt:5117826551 seat:163 tx:295.04 airl:16
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:206.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	163
+DEBUG
+1: Ticket No 5117826552
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 206.7
+DEBUG
+1: Tkt Seat Amt 163
+DEBUG
+1: Tkt Tax Amt 295.04
+DEBUG
+1: tkt:5117826552 seat:163 tx:295.04 airl:16
+DEBUG
+1: -->stella pnr costs, seat:326 tx:590.08tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NT7T55
+DEBUG
+1: cmain.pnr_creation_date12-OCT-17
+DEBUG
+1: Stella pnr / booking ref (NT7T55/12-OCT-17/L112557 )relates to multiple PNRs in Travelink
+DEBUG
+1: 135pnr:3087749 RAMRXZ pnr creation dt:09-SEP-17?18 br:USAC reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	183
+DEBUG
+1: Ticket No 5117826567
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 183
+DEBUG
+1: Tkt Tax Amt 395.61
+DEBUG
+1: tkt:5117826567 seat:183 tx:395.61 airl:125
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:275.7
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	183
+DEBUG
+1: Ticket No 5117826568
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 275.7
+DEBUG
+1: Tkt Seat Amt 183
+DEBUG
+1: Tkt Tax Amt 395.61
+DEBUG
+1: tkt:5117826568 seat:183 tx:395.61 airl:125
+DEBUG
+1: -->stella pnr costs, seat:366 tx:791.22tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no RAMRXZ
+DEBUG
+1: cmain.pnr_creation_date09-SEP-17
+DEBUG
+1: Stella pnr / booking ref (RAMRXZ/09-SEP-17/L112557 )relates to multiple PNRs in Travelink
+DEBUG
+1: 136pnr:3087370 KACZUU pnr creation dt:11-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117671974
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117671974 seat:0 tx:0 airl:160
+DEBUG
+1: -->stella pnr costs, seat:0 tx:0tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no KACZUU
+DEBUG
+1: cmain.pnr_creation_date11-JAN-18
+DEBUG
+1: Stella Booking  (Z115766) has no scheduled match in Travelink
+DEBUG
+1: 137pnr:3087627 NTHWJA pnr creation dt:09-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:61.1
+DEBUG
+1:  v_selling_fare_amt	135  1722
+DEBUG
+1: v_published_fare_amt at 135	1722
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782383
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 61.1
+DEBUG
+1: Tkt Seat Amt 1722
+DEBUG
+1: Tkt Tax Amt 61.1
+DEBUG
+1: tkt:5117782383 seat:1722 tx:61.1 airl:81
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117782384
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117782384 seat:0 tx:0 airl:81
+DEBUG
+1: -->stella pnr costs, seat:1722 tx:61.1tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NTHWJA
+DEBUG
+1: cmain.pnr_creation_date09-JAN-18
+DEBUG
+1: Stella Booking  (Z116600) has no scheduled match in Travelink
+DEBUG
+1: 138pnr:3087799 UM2ECD pnr creation dt:12-JAN-18?18 br:AUST reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:154.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	823
+DEBUG
+1: Ticket No 5117835725
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 154.6
+DEBUG
+1: Tkt Seat Amt 823
+DEBUG
+1: Tkt Tax Amt 274.51
+DEBUG
+1: tkt:5117835725 seat:823 tx:274.51 airl:217
+DEBUG
+1: -->stella pnr costs, seat:823 tx:274.51tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no UM2ECD
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (Z116684) has no scheduled match in Travelink
+DEBUG
+1: 139pnr:3087385 VT46FN pnr creation dt:12-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:0 ubtx:19.3 remtx:80.2
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	6
+DEBUG
+1: Ticket No 5117688699
+DEBUG
+1: UB Tax 19.3
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 80.2
+DEBUG
+1: Tkt Seat Amt 6
+DEBUG
+1: Tkt Tax Amt 99.5
+DEBUG
+1: tkt:5117688699 seat:6 tx:99.5 airl:55
+DEBUG
+1: -->stella pnr costs, seat:6 tx:99.5tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no VT46FN
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (C116215) has no scheduled match in Travelink
+DEBUG
+1: 140pnr:3087393 S67XXW pnr creation dt:12-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	90
+DEBUG
+1: Ticket No 1824192337
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 90
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:1824192337 seat:90 tx:0 airl:267
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	90
+DEBUG
+1: Ticket No 1824192338
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 90
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:1824192338 seat:90 tx:0 airl:267
+DEBUG
+1: -->stella pnr costs, seat:180 tx:0tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no S67XXW
+DEBUG
+1: cmain.pnr_creation_date12-JAN-18
+DEBUG
+1: Stella Booking  (C116560) has no scheduled match in Travelink
+DEBUG
+1: 141pnr:3087648 NJRSOE pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.2
+DEBUG
+1:  v_selling_fare_amt	135  58
+DEBUG
+1: v_published_fare_amt at 135	58
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821714
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.2
+DEBUG
+1: Tkt Seat Amt 58
+DEBUG
+1: Tkt Tax Amt 47.3
+DEBUG
+1: tkt:5117821714 seat:58 tx:47.3 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.2
+DEBUG
+1:  v_selling_fare_amt	135  58
+DEBUG
+1: v_published_fare_amt at 135	58
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821715
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.2
+DEBUG
+1: Tkt Seat Amt 58
+DEBUG
+1: Tkt Tax Amt 47.3
+DEBUG
+1: tkt:5117821715 seat:58 tx:47.3 airl:125
+DEBUG
+1: -->stella pnr costs, seat:116 tx:94.6tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NJRSOE
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116678) has no scheduled match in Travelink
+DEBUG
+1: 142pnr:3087659 NLMHRZ pnr creation dt:15-JAN-18?18 br:CITA reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:22.1
+DEBUG
+1:  v_selling_fare_amt	135  67
+DEBUG
+1: v_published_fare_amt at 135	67
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821717
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 22.1
+DEBUG
+1: Tkt Seat Amt 67
+DEBUG
+1: Tkt Tax Amt 22.1
+DEBUG
+1: tkt:5117821717 seat:67 tx:22.1 airl:30
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:22.1
+DEBUG
+1:  v_selling_fare_amt	135  67
+DEBUG
+1: v_published_fare_amt at 135	67
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117821716
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 22.1
+DEBUG
+1: Tkt Seat Amt 67
+DEBUG
+1: Tkt Tax Amt 22.1
+DEBUG
+1: tkt:5117821716 seat:67 tx:22.1 airl:30
+DEBUG
+1: -->stella pnr costs, seat:134 tx:44.2tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NLMHRZ
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella Booking  (C116678) has no scheduled match in Travelink
+DEBUG
+1: 143pnr:3087487 NQATIE pnr creation dt:15-JAN-18?18 br:FLEX reas:
+DEBUG
+1: in gbtx:13 ubtx:13.34 remtx:76
+DEBUG
+1:  v_selling_fare_amt	135  121
+DEBUG
+1: v_published_fare_amt at 135	121
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117752857
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 76
+DEBUG
+1: Tkt Seat Amt 121
+DEBUG
+1: Tkt Tax Amt 102.34
+DEBUG
+1: tkt:5117752857 seat:121 tx:102.34 airl:220
+DEBUG
+1: -->stella pnr costs, seat:121 tx:102.34tol st:0tol tx:3
+DEBUG
+1: cmain.pnr_no NQATIE
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (NQATIE/15-JAN-18/C116678 )relates to multiple PNRs in Travelink
+DEBUG
+1: 144pnr:3087579 LNCID4 pnr creation dt:12-NOV-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:44.92 remtx:228.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	386
+DEBUG
+1: Ticket No 5117779807
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 228.6
+DEBUG
+1: Tkt Seat Amt 386
+DEBUG
+1: Tkt Tax Amt 351.52
+DEBUG
+1: tkt:5117779807 seat:386 tx:351.52 airl:176
+DEBUG
+1: in gbtx:78 ubtx:44.92 remtx:228.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	386
+DEBUG
+1: Ticket No 5117779808
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 228.6
+DEBUG
+1: Tkt Seat Amt 386
+DEBUG
+1: Tkt Tax Amt 351.52
+DEBUG
+1: tkt:5117779808 seat:386 tx:351.52 airl:176
+DEBUG
+1: in gbtx:78 ubtx:44.92 remtx:228.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	386
+DEBUG
+1: Ticket No 5117779809
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 228.6
+DEBUG
+1: Tkt Seat Amt 386
+DEBUG
+1: Tkt Tax Amt 351.52
+DEBUG
+1: tkt:5117779809 seat:386 tx:351.52 airl:176
+DEBUG
+1: in gbtx:78 ubtx:44.92 remtx:228.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	386
+DEBUG
+1: Ticket No 5117779810
+DEBUG
+1: UB Tax 44.92
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 228.6
+DEBUG
+1: Tkt Seat Amt 386
+DEBUG
+1: Tkt Tax Amt 351.52
+DEBUG
+1: tkt:5117779810 seat:386 tx:351.52 airl:176
+DEBUG
+1: -->stella pnr costs, seat:1544 tx:1406.08tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no LNCID4
+DEBUG
+1: cmain.pnr_creation_date12-NOV-17
+DEBUG
+1: Stella Booking  (L115840) has no scheduled match in Travelink
+DEBUG
+1: 145pnr:3087593 Q9ECEG pnr creation dt:10-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:122.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	396
+DEBUG
+1: Ticket No 5117779819
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 122.5
+DEBUG
+1: Tkt Seat Amt 396
+DEBUG
+1: Tkt Tax Amt 242.41
+DEBUG
+1: tkt:5117779819 seat:396 tx:242.41 airl:738
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:122.5
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	396
+DEBUG
+1: Ticket No 5117779820
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 122.5
+DEBUG
+1: Tkt Seat Amt 396
+DEBUG
+1: Tkt Tax Amt 242.41
+DEBUG
+1: tkt:5117779820 seat:396 tx:242.41 airl:738
+DEBUG
+1: -->stella pnr costs, seat:792 tx:484.82tol st:0tol tx:5
+DEBUG
+1: cmain.pnr_no Q9ECEG
+DEBUG
+1: cmain.pnr_creation_date10-JAN-18
+DEBUG
+1: Stella Booking  (L116542) has no scheduled match in Travelink
+DEBUG
+1: 146pnr:3087600 UC9D34 pnr creation dt:06-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:78 ubtx:17.5 remtx:201.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	560
+DEBUG
+1: Ticket No 5117826495
+DEBUG
+1: UB Tax 17.5
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 201.4
+DEBUG
+1: Tkt Seat Amt 560
+DEBUG
+1: Tkt Tax Amt 296.9
+DEBUG
+1: tkt:5117826495 seat:560 tx:296.9 airl:74
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826496
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826496 seat:0 tx:0 airl:74
+DEBUG
+1: in gbtx:78 ubtx:17.5 remtx:201.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	560
+DEBUG
+1: Ticket No 5117826497
+DEBUG
+1: UB Tax 17.5
+DEBUG
+1: GB Tax 78
+DEBUG
+1: Remianing Tax 201.4
+DEBUG
+1: Tkt Seat Amt 560
+DEBUG
+1: Tkt Tax Amt 296.9
+DEBUG
+1: tkt:5117826497 seat:560 tx:296.9 airl:74
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:0
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	0
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826498
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 0
+DEBUG
+1: Tkt Seat Amt 0
+DEBUG
+1: Tkt Tax Amt 0
+DEBUG
+1: tkt:5117826498 seat:0 tx:0 airl:74
+DEBUG
+1: -->stella pnr costs, seat:1120 tx:593.8tol st:0tol tx:12
+DEBUG
+1: cmain.pnr_no UC9D34
+DEBUG
+1: cmain.pnr_creation_date06-JAN-18
+DEBUG
+1: Stella Booking  (L116413) has no scheduled match in Travelink
+DEBUG
+1: 147pnr:3087613 J3NDQL pnr creation dt:13-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:8
+DEBUG
+1:  v_selling_fare_amt	135  52
+DEBUG
+1: v_published_fare_amt at 135	52
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826502
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 8
+DEBUG
+1: Tkt Seat Amt 52
+DEBUG
+1: Tkt Tax Amt 8
+DEBUG
+1: tkt:5117826502 seat:52 tx:8 airl:232
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:8
+DEBUG
+1:  v_selling_fare_amt	135  52
+DEBUG
+1: v_published_fare_amt at 135	52
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826503
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 8
+DEBUG
+1: Tkt Seat Amt 52
+DEBUG
+1: Tkt Tax Amt 8
+DEBUG
+1: tkt:5117826503 seat:52 tx:8 airl:232
+DEBUG
+1: in gbtx:0 ubtx:0 remtx:8
+DEBUG
+1:  v_selling_fare_amt	135  52
+DEBUG
+1: v_published_fare_amt at 135	52
+DEBUG
+1: v_sector_payment_indN
+DEBUG
+1: Ticket No 5117826504
+DEBUG
+1: UB Tax 0
+DEBUG
+1: GB Tax 0
+DEBUG
+1: Remianing Tax 8
+DEBUG
+1: Tkt Seat Amt 52
+DEBUG
+1: Tkt Tax Amt 8
+DEBUG
+1: tkt:5117826504 seat:52 tx:8 airl:232
+DEBUG
+1: -->stella pnr costs, seat:156 tx:24tol st:0tol tx:9
+DEBUG
+1: cmain.pnr_no J3NDQL
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (L116630) has no scheduled match in Travelink
+DEBUG
+1: 148pnr:3087650 J9X4TC pnr creation dt:13-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:95.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	403
+DEBUG
+1: Ticket No 5117826515
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 95.4
+DEBUG
+1: Tkt Seat Amt 403
+DEBUG
+1: Tkt Tax Amt 215.31
+DEBUG
+1: tkt:5117826515 seat:403 tx:215.31 airl:217
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:95.4
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	403
+DEBUG
+1: Ticket No 5117826516
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 95.4
+DEBUG
+1: Tkt Seat Amt 403
+DEBUG
+1: Tkt Tax Amt 215.31
+DEBUG
+1: tkt:5117826516 seat:403 tx:215.31 airl:217
+DEBUG
+1: -->stella pnr costs, seat:806 tx:430.62tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no J9X4TC
+DEBUG
+1: cmain.pnr_creation_date13-JAN-18
+DEBUG
+1: Stella Booking  (L116641) has no scheduled match in Travelink
+DEBUG
+1: 149pnr:3087701 MI3G9J pnr creation dt:17-AUG-17?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:237
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	140
+DEBUG
+1: Ticket No 5117826539
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 237
+DEBUG
+1: Tkt Seat Amt 140
+DEBUG
+1: Tkt Tax Amt 356.91
+DEBUG
+1: tkt:5117826539 seat:140 tx:356.91 airl:603
+DEBUG
+1: in gbtx:75 ubtx:44.91 remtx:237
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	140
+DEBUG
+1: Ticket No 5117826540
+DEBUG
+1: UB Tax 44.91
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 237
+DEBUG
+1: Tkt Seat Amt 140
+DEBUG
+1: Tkt Tax Amt 356.91
+DEBUG
+1: tkt:5117826540 seat:140 tx:356.91 airl:603
+DEBUG
+1: -->stella pnr costs, seat:280 tx:713.82tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no MI3G9J
+DEBUG
+1: cmain.pnr_creation_date17-AUG-17
+DEBUG
+1: Stella Booking  (L114700) has no scheduled match in Travelink
+DEBUG
+1: 150pnr:3087816 NNKWWZ pnr creation dt:15-JAN-18?18 br:HAJS reas:
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:244.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	353
+DEBUG
+1: Ticket No 5117837215
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 244.6
+DEBUG
+1: Tkt Seat Amt 353
+DEBUG
+1: Tkt Tax Amt 332.94
+DEBUG
+1: tkt:5117837215 seat:353 tx:332.94 airl:176
+DEBUG
+1: in gbtx:75 ubtx:13.34 remtx:244.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	353
+DEBUG
+1: Ticket No 5117837216
+DEBUG
+1: UB Tax 13.34
+DEBUG
+1: GB Tax 75
+DEBUG
+1: Remianing Tax 244.6
+DEBUG
+1: Tkt Seat Amt 353
+DEBUG
+1: Tkt Tax Amt 332.94
+DEBUG
+1: tkt:5117837216 seat:353 tx:332.94 airl:176
+DEBUG
+1: -->stella pnr costs, seat:706 tx:665.88tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no NNKWWZ
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: -->Travelink accrual:seat:0 tax:711.09 pnr:0
+DEBUG
+1: seatamt outside tols
+DEBUG
+1: tax outside tols
+DEBUG
+1: Stella Booking  (L114700) has no scheduled match in Travelink
+DEBUG
+1: 151pnr:3087866 OCZXVG pnr creation dt:15-JAN-18?18 br:SOVE reas:
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	153
+DEBUG
+1: Ticket No 5117821742
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.6
+DEBUG
+1: Tkt Seat Amt 153
+DEBUG
+1: Tkt Tax Amt 47.7
+DEBUG
+1: tkt:5117821742 seat:153 tx:47.7 airl:125
+DEBUG
+1: in gbtx:13 ubtx:13.1 remtx:21.6
+DEBUG
+1:  v_selling_fare_amt	135  0
+DEBUG
+1: v_published_fare_amt at 135	153
+DEBUG
+1: Ticket No 5117821743
+DEBUG
+1: UB Tax 13.1
+DEBUG
+1: GB Tax 13
+DEBUG
+1: Remianing Tax 21.6
+DEBUG
+1: Tkt Seat Amt 153
+DEBUG
+1: Tkt Tax Amt 47.7
+DEBUG
+1: tkt:5117821743 seat:153 tx:47.7 airl:125
+DEBUG
+1: -->stella pnr costs, seat:306 tx:95.4tol st:0tol tx:6
+DEBUG
+1: cmain.pnr_no OCZXVG
+DEBUG
+1: cmain.pnr_creation_date15-JAN-18
+DEBUG
+1: Stella pnr / booking ref (OCZXVG/15-JAN-18/L116680 )relates to multiple PNRs in Travelink
+DEBUG
+1: Rows processed		    :151
+DEBUG
+1: Rows no pnr match		    :106
+DEBUG
+1: Rows tax outside tolerances	    :4
+DEBUG
+1: Rows seat cost outside tolerances:4
+DEBUG
+1: Rows part-reconciled 	    :0
+DEBUG
+1: Rows fully matched 100%	    :0
+DEBUG
+1: STLTLR   ended:18-jan-16 09:00:08
+STLTLR	 ended:18-jan-16 09:00:08
+Result of Travelink reconc.:
+No of rows :151
+
+PL/SQL procedure successfully completed.
+
+Disconnected from Oracle Database 10g Release 10.2.0.4.0 - 64bit Production

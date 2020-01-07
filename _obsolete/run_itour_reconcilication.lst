@@ -1,0 +1,18 @@
+
+SQL*Plus: Release 10.2.0.4.0 - Production on Wed Jun 6 09:33:54 2012
+
+Copyright (c) 1982, 2007, Oracle.  All Rights Reserved.
+
+
+Connected to:
+Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+declare
+*
+ERROR at line 1:
+ORA-04063: package body "STELLA.P_STELLA_ITOUR_RECONCILIATION" has errors
+ORA-06508: PL/SQL: could not find program unit being called: "STELLA.P_STELLA_ITOUR_RECONCILIATION"
+ORA-06512: at line 8
+
+
+Disconnected from Oracle Database 10g Release 10.2.0.4.0 - 64bit Production

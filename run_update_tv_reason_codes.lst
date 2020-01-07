@@ -1,0 +1,17 @@
+
+SQL*Plus: Release 10.2.0.4.0 - Production on Tue Jan 16 09:00:01 2018
+
+Copyright (c) 1982, 2007, Oracle.  All Rights Reserved.
+
+
+Connected to:
+Oracle Database 10g Release 10.2.0.4.0 - 64bit Production
+
+start:18-jan-16 09:00:02
+reas from:TV reas toDN
+Count of fixed:0
+end:18-jan-16 09:00:10
+
+PL/SQL procedure successfully completed.
+
+Disconnected from Oracle Database 10g Release 10.2.0.4.0 - 64bit Production

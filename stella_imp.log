@@ -1,0 +1,48 @@
+
+Connected to: Oracle Database 11g Release 11.2.0.1.0 - 64bit Production
+
+Export file created by EXPORT:V10.02.01 via conventional path
+import done in AL32UTF8 character set and AL16UTF16 NCHAR character set
+import server uses WE8ISO8859P15 character set (possible charset conversion)
+export client uses US7ASCII character set (possible charset conversion)
+. importing STELLA's objects into STELLA
+. importing STELLA's objects into STELLA
+. . importing table                      "AIRLINE"        210 rows imported
+. . importing table      "AIRLINE_USER_ALLOCATION"       1745 rows imported
+. . importing table                       "BRANCH"       2315 rows imported
+. . importing table                 "BRANCH_GROUP"         33 rows imported
+. . importing table      "BRANCH_GROUP_ALLOCATION"        848 rows imported
+. . importing table              "BSP_TRANSACTION"    1249868 rows imported
+. . importing table          "BSP_TRANSACTION_OLD"    3330818 rows imported
+. . importing table "BSP_TRANSACTION_RESTOREMI2206"     208689 rows imported
+. . importing table                "BUSINESS_RULE"          2 rows imported
+. . importing table                      "COMPANY"          3 rows imported
+. . importing table        "CREATE$JAVA$LOB$TABLE"          1 rows imported
+. . importing table                          "CRS"          6 rows imported
+. . importing table                     "DOC_TYPE"         11 rows imported
+. . importing table                 "IATA_DETAILS"         12 rows imported
+. . importing table                 "JAVA$OPTIONS"         12 rows imported
+. . importing table                   "PLAN_TABLE"          0 rows imported
+. . importing table                          "PNR"     358645 rows imported
+. . importing table                      "PNR_OLD"    1098196 rows imported
+. . importing table   "PNR_RECONCILIATION_HISTORY"     356541 rows imported
+. . importing table "PNR_RECONCILIATION_HISTORY_OLD"    1429395 rows imported
+. . importing table                       "REASON"         51 rows imported
+. . importing table                  "REASON_ROLE"        102 rows imported
+. . importing table                  "REASON_TYPE"          4 rows imported
+. . importing table                 "REFUND_BATCH"     127369 rows imported
+. . importing table                "REFUND_LETTER"          0 rows imported
+. . importing table         "REFUND_LETTER_TICKET"          0 rows imported
+. . importing table                "REFUND_REASON"         15 rows imported
+. . importing table                "REFUND_TICKET"      36560 rows imported
+. . importing table            "REFUND_TICKET_OLD"     174428 rows imported
+. . importing table  "SCHEDULED_FLIGHT_SUPPLEMENT"         45 rows imported
+. . importing table                       "SOURCE"          3 rows imported
+. . importing table                "TEXT_TEMPLATE"          0 rows imported
+. . importing table                       "TICKET"    1000512 rows imported
+. . importing table              "TICKETING_AGENT"        188 rows imported
+. . importing table                   "TICKET_OLD"    2872840 rows imported
+. . importing table                 "TICKET_RANGE"        739 rows imported
+. . importing table                   "TLINK_VIEW"        280 rows imported
+. . importing table               "TLINK_VIEW_OLD"     362475 rows imported
+Import terminated successfully without warnings.

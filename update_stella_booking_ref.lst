@@ -1,0 +1,10 @@
+
+SQL*Plus: Release 10.2.0.4.0 - Production on Thu Feb 20 19:30:02 2014
+
+Copyright (c) 1982, 2007, Oracle.  All Rights Reserved.
+
+ERROR:
+ORA-01035: ORACLE only available to users with RESTRICTED SESSION privilege
+
+
+Enter user-name: 

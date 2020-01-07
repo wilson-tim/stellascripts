@@ -1,0 +1,443 @@
+lager65
+2008/10/09---14:04:00 : Parameters passed: .
+
+2008/10/09---14:04:00 --------------------------------------------------------------------------
+2008/10/09---14:04:00 >>>>>> Stella AIR Load load_air.ksh
+2008/10/09---14:04:00 --------------------------------------------------------------------------
+2008/10/09---14:04:00 Setting variables
+2008/10/09---14:04:00 Checking input params
+start at step  00
+2008/10/09---14:04:00 FTPing files from source server
+2008/10/09---14:04:00 Step 10
+
+not written yet
+2008/10/09---14:04:00 Deleting error files which was created by prior run
+2008/10/09---14:04:00 Step 20
+
+2008/10/09---14:04:01 files are already in airfiles folder , now trying to change ownership/rights on files
+/data/stella/airfiles/[0-9]*.AIR xargs chmod 777
+2008/10/09---14:04:01 Step 30
+
+2008/10/09---14:04:01 Moving recycle files (/data/stella/airrecycle) into current data directory (/data/stella/airfiles) so they can be processed again
+2008/10/09---14:04:01 Step 35
+
+2008/10/09---14:04:01 Checking for dup files
+Checking file 38313.AIR
+Checking file 38314.AIR
+Checking file 39837.AIR
+Checking file 39838.AIR
+Checking file 42557.AIR
+Checking file 45202.AIR
+Checking file 45203.AIR
+Checking file 45206.AIR
+Checking file 45207.AIR
+2008/10/09---14:04:01 No files already exist - continuing with process
+2008/10/09---14:04:01 Step 40
+
+2008/10/09---14:04:01 List of contents of data file directory before actual processing starts
+38313.AIR
+38314.AIR
+39837.AIR
+39838.AIR
+42557.AIR
+45202.AIR
+45203.AIR
+45206.AIR
+45207.AIR
+2008/10/09---14:04:01 Run the stored proc that runs the java program to load the AIR files into database
+2008/10/09---14:04:04 Show output from java program:
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+3100p_pseudo_city_code
+38HJ,33CI,33MV,38TW,38TI,38TSv_spec_psedo_list
+Result of air load:
+OK|Lf#/data/logs/stella//stelairl_091008_1404.log
+
+PL/SQL procedure successfully completed.
+
+2008/10/09---14:04:04 Completed load of data
+2008/10/09---14:04:04 Logfile used for run was
+/data/logs/stella//stelairl_091008_1404.log
+2008/10/09---14:04:04 Step 50
+
+error found
+melaniehurdle@shglonghaul.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+melaniehurdle@shglonghaul.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:01 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=1481
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<melaniehurdle@shglonghaul.co.uk>
+>>> DATA
+250 melaniehurdle@shglonghaul.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+melaniehurdle@shglonghaul.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+rengajyot1@yahoo.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+rengajyot1@yahoo.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:01 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=1472
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<rengajyot1@yahoo.co.uk>
+>>> DATA
+250 rengajyot1@yahoo.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+rengajyot1@yahoo.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+melaniehurdle@shglonghaul.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+melaniehurdle@shglonghaul.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:01 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=1481
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<melaniehurdle@shglonghaul.co.uk>
+>>> DATA
+250 melaniehurdle@shglonghaul.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+melaniehurdle@shglonghaul.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+rengajyot1@yahoo.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+rengajyot1@yahoo.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:01 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=1472
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<rengajyot1@yahoo.co.uk>
+>>> DATA
+250 rengajyot1@yahoo.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+rengajyot1@yahoo.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+2008/10/09---14:04:05 Step 60
+
+melaniehurdle@shglonghaul.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+melaniehurdle@shglonghaul.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:02 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=378
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<melaniehurdle@shglonghaul.co.uk>
+>>> DATA
+250 melaniehurdle@shglonghaul.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+melaniehurdle@shglonghaul.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+rengajyot1@yahoo.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+rengajyot1@yahoo.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:02 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=369
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<rengajyot1@yahoo.co.uk>
+>>> DATA
+250 rengajyot1@yahoo.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+rengajyot1@yahoo.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+melaniehurdle@shglonghaul.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+melaniehurdle@shglonghaul.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:02 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=378
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<melaniehurdle@shglonghaul.co.uk>
+>>> DATA
+250 melaniehurdle@shglonghaul.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+melaniehurdle@shglonghaul.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+rengajyot1@yahoo.co.uk
+Warning: .cf file is out of date: sendmail AIX5.3/8.13.4 supports version 10, .cf file is version 9
+rengajyot1@yahoo.co.uk... Connecting to smtp.firstchoice.co.uk via relay...
+220 cra-dom-hub01.firstchoice.co.uk ESMTP Service (Lotus Domino Release 6.5.6FP1) ready at Thu, 9 Oct 2008 14:05:02 +0100
+>>> EHLO slo-dwlive.firstchoice.co.uk
+250-cra-dom-hub01.firstchoice.co.uk Hello slo-dwlive.firstchoice.co.uk ([10.20.35.10]), pleased to meet you
+250-HELP
+250-AUTH LOGIN
+250-SIZE 40960000
+250 PIPELINING
+>>> MAIL From:<dw@slo-dwlive.firstchoice.co.uk> SIZE=369
+250 dw@slo-dwlive.firstchoice.co.uk... Sender OK
+>>> RCPT To:<rengajyot1@yahoo.co.uk>
+>>> DATA
+250 rengajyot1@yahoo.co.uk... Recipient OK
+354 Enter message, end with "." on a line by itself
+>>> .
+250 Message accepted for delivery
+rengajyot1@yahoo.co.uk... Sent (Message accepted for delivery)
+Closing connection to smtp.firstchoice.co.uk
+>>> QUIT
+221 cra-dom-hub01.firstchoice.co.uk SMTP Service closing transmission channel
+2008/10/09---14:04:06 Step 70
+
+about to delete old files
+-rw-r--r--   1 dw       dw                0 01 Oct 10:21 /home/dw/DWLIVE/logs/stella/load_airWed  1 Oct 10:21:00 2008
+2008/10/09---14:04:06 Step 80
+
+about to remove files from /data/stella/backup more than 7 days old
+
+about to archive todays air files
+gonna tar/compress old air files from archive area
+about to tar up individual files
+a /data/stella_archive/46116.AIR 7 blocks.
+a /data/stella_archive/46117.AIR 15 blocks.
+a /data/stella_archive/46118.AIR 6 blocks.
+a /data/stella_archive/46119.AIR 4 blocks.
+a /data/stella_archive/46120.AIR 5 blocks.
+a /data/stella_archive/46121.AIR 4 blocks.
+a /data/stella_archive/46122.AIR 4 blocks.
+a /data/stella_archive/46123.AIR 10 blocks.
+a /data/stella_archive/46124.AIR 16 blocks.
+a /data/stella_archive/46125.AIR 3 blocks.
+a /data/stella_archive/46126.AIR 6 blocks.
+a /data/stella_archive/46127.AIR 4 blocks.
+a /data/stella_archive/46128.AIR 6 blocks.
+a /data/stella_archive/46129.AIR 7 blocks.
+a /data/stella_archive/46130.AIR 5 blocks.
+a /data/stella_archive/46131.AIR 9 blocks.
+a /data/stella_archive/46132.AIR 4 blocks.
+a /data/stella_archive/46133.AIR 7 blocks.
+a /data/stella_archive/46134.AIR 7 blocks.
+a /data/stella_archive/46135.AIR 4 blocks.
+a /data/stella_archive/46136.AIR 7 blocks.
+a /data/stella_archive/46137.AIR 4 blocks.
+a /data/stella_archive/46138.AIR 5 blocks.
+a /data/stella_archive/46139.AIR 6 blocks.
+a /data/stella_archive/46140.AIR 5 blocks.
+a /data/stella_archive/46141.AIR 5 blocks.
+a /data/stella_archive/46142.AIR 5 blocks.
+a /data/stella_archive/46143.AIR 7 blocks.
+a /data/stella_archive/46144.AIR 7 blocks.
+a /data/stella_archive/46145.AIR 7 blocks.
+a /data/stella_archive/46146.AIR 6 blocks.
+a /data/stella_archive/46147.AIR 3 blocks.
+a /data/stella_archive/46148.AIR 6 blocks.
+a /data/stella_archive/46149.AIR 6 blocks.
+a /data/stella_archive/46150.AIR 8 blocks.
+a /data/stella_archive/46151.AIR 5 blocks.
+a /data/stella_archive/46153.AIR 3 blocks.
+a /data/stella_archive/46154.AIR 5 blocks.
+a /data/stella_archive/46155.AIR 5 blocks.
+a /data/stella_archive/46156.AIR 4 blocks.
+a /data/stella_archive/46157.AIR 6 blocks.
+a /data/stella_archive/46158.AIR 6 blocks.
+a /data/stella_archive/46159.AIR 7 blocks.
+a /data/stella_archive/46160.AIR 6 blocks.
+a /data/stella_archive/46161.AIR 5 blocks.
+a /data/stella_archive/46162.AIR 5 blocks.
+a /data/stella_archive/46163.AIR 15 blocks.
+a /data/stella_archive/46164.AIR 8 blocks.
+a /data/stella_archive/46165.AIR 8 blocks.
+a /data/stella_archive/46166.AIR 6 blocks.
+a /data/stella_archive/46167.AIR 24 blocks.
+a /data/stella_archive/46168.AIR 7 blocks.
+a /data/stella_archive/46169.AIR 4 blocks.
+a /data/stella_archive/46170.AIR 8 blocks.
+a /data/stella_archive/46171.AIR 4 blocks.
+a /data/stella_archive/46172.AIR 27 blocks.
+a /data/stella_archive/46173.AIR 5 blocks.
+a /data/stella_archive/46174.AIR 7 blocks.
+a /data/stella_archive/46175.AIR 5 blocks.
+a /data/stella_archive/46176.AIR 6 blocks.
+a /data/stella_archive/46177.AIR 9 blocks.
+a /data/stella_archive/46178.AIR 9 blocks.
+a /data/stella_archive/46179.AIR 8 blocks.
+a /data/stella_archive/46181.AIR 5 blocks.
+a /data/stella_archive/46182.AIR 4 blocks.
+a /data/stella_archive/46183.AIR 3 blocks.
+a /data/stella_archive/46184.AIR 27 blocks.
+a /data/stella_archive/46185.AIR 7 blocks.
+a /data/stella_archive/46186.AIR 6 blocks.
+a /data/stella_archive/46187.AIR 8 blocks.
+a /data/stella_archive/46188.AIR 13 blocks.
+a /data/stella_archive/46189.AIR 7 blocks.
+a /data/stella_archive/46190.AIR 4 blocks.
+a /data/stella_archive/46191.AIR 4 blocks.
+a /data/stella_archive/46192.AIR 6 blocks.
+a /data/stella_archive/46194.AIR 5 blocks.
+a /data/stella_archive/46195.AIR 5 blocks.
+a /data/stella_archive/46196.AIR 5 blocks.
+a /data/stella_archive/46197.AIR 9 blocks.
+a /data/stella_archive/46198.AIR 7 blocks.
+a /data/stella_archive/46199.AIR 5 blocks.
+a /data/stella_archive/46200.AIR 6 blocks.
+a /data/stella_archive/46201.AIR 6 blocks.
+a /data/stella_archive/46202.AIR 5 blocks.
+a /data/stella_archive/46203.AIR 7 blocks.
+a /data/stella_archive/46204.AIR 8 blocks.
+a /data/stella_archive/46205.AIR 6 blocks.
+a /data/stella_archive/46206.AIR 5 blocks.
+a /data/stella_archive/46208.AIR 6 blocks.
+a /data/stella_archive/46209.AIR 8 blocks.
+a /data/stella_archive/46210.AIR 7 blocks.
+a /data/stella_archive/46211.AIR 6 blocks.
+a /data/stella_archive/46212.AIR 5 blocks.
+a /data/stella_archive/46213.AIR 7 blocks.
+a /data/stella_archive/46214.AIR 5 blocks.
+a /data/stella_archive/46215.AIR 5 blocks.
+a /data/stella_archive/46216.AIR 4 blocks.
+a /data/stella_archive/46217.AIR 5 blocks.
+a /data/stella_archive/46218.AIR 8 blocks.
+a /data/stella_archive/46219.AIR 4 blocks.
+a /data/stella_archive/46220.AIR 8 blocks.
+a /data/stella_archive/46221.AIR 6 blocks.
+a /data/stella_archive/46222.AIR 5 blocks.
+a /data/stella_archive/46223.AIR 7 blocks.
+a /data/stella_archive/46224.AIR 4 blocks.
+a /data/stella_archive/46225.AIR 4 blocks.
+a /data/stella_archive/46226.AIR 4 blocks.
+a /data/stella_archive/46227.AIR 7 blocks.
+a /data/stella_archive/46228.AIR 5 blocks.
+a /data/stella_archive/46229.AIR 5 blocks.
+a /data/stella_archive/46230.AIR 2 blocks.
+a /data/stella_archive/46231.AIR 2 blocks.
+a /data/stella_archive/46232.AIR 2 blocks.
+a /data/stella_archive/46233.AIR 4 blocks.
+a /data/stella_archive/46234.AIR 5 blocks.
+a /data/stella_archive/46235.AIR 7 blocks.
+a /data/stella_archive/46236.AIR 20 blocks.
+a /data/stella_archive/46237.AIR 4 blocks.
+a /data/stella_archive/46238.AIR 4 blocks.
+a /data/stella_archive/46239.AIR 6 blocks.
+a /data/stella_archive/46240.AIR 3 blocks.
+a /data/stella_archive/46241.AIR 4 blocks.
+a /data/stella_archive/46242.AIR 8 blocks.
+a /data/stella_archive/46243.AIR 9 blocks.
+a /data/stella_archive/46244.AIR 5 blocks.
+a /data/stella_archive/46245.AIR 6 blocks.
+a /data/stella_archive/46246.AIR 5 blocks.
+a /data/stella_archive/46247.AIR 6 blocks.
+a /data/stella_archive/46249.AIR 5 blocks.
+a /data/stella_archive/46250.AIR 7 blocks.
+a /data/stella_archive/46251.AIR 6 blocks.
+a /data/stella_archive/46252.AIR 8 blocks.
+a /data/stella_archive/46253.AIR 5 blocks.
+a /data/stella_archive/46254.AIR 5 blocks.
+a /data/stella_archive/46255.AIR 6 blocks.
+a /data/stella_archive/46256.AIR 5 blocks.
+a /data/stella_archive/46257.AIR 5 blocks.
+a /data/stella_archive/46258.AIR 3 blocks.
+a /data/stella_archive/46259.AIR 5 blocks.
+a /data/stella_archive/46260.AIR 6 blocks.
+a /data/stella_archive/46261.AIR 5 blocks.
+a /data/stella_archive/46262.AIR 7 blocks.
+a /data/stella_archive/46263.AIR 4 blocks.
+a /data/stella_archive/46264.AIR 4 blocks.
+a /data/stella_archive/46265.AIR 2 blocks.
+a /data/stella_archive/46266.AIR 4 blocks.
+a /data/stella_archive/46267.AIR 6 blocks.
+a /data/stella_archive/46268.AIR 7 blocks.
+a /data/stella_archive/46269.AIR 7 blocks.
+a /data/stella_archive/46270.AIR 7 blocks.
+a /data/stella_archive/46271.AIR 4 blocks.
+a /data/stella_archive/46272.AIR 4 blocks.
+a /data/stella_archive/46273.AIR 6 blocks.
+a /data/stella_archive/46274.AIR 4 blocks.
+a /data/stella_archive/46275.AIR 6 blocks.
+a /data/stella_archive/46276.AIR 6 blocks.
+a /data/stella_archive/46277.AIR 5 blocks.
+a /data/stella_archive/46278.AIR 5 blocks.
+a /data/stella_archive/46279.AIR 6 blocks.
+a /data/stella_archive/46280.AIR 6 blocks.
+a /data/stella_archive/46281.AIR 6 blocks.
+a /data/stella_archive/46282.AIR 6 blocks.
+a /data/stella_archive/46283.AIR 7 blocks.
+a /data/stella_archive/46284.AIR 6 blocks.
+a /data/stella_archive/46285.AIR 6 blocks.
+a /data/stella_archive/46286.AIR 4 blocks.
+a /data/stella_archive/46287.AIR 5 blocks.
+a /data/stella_archive/46288.AIR 7 blocks.
+a /data/stella_archive/46289.AIR 4 blocks.
+a /data/stella_archive/46290.AIR 5 blocks.
+a /data/stella_archive/46291.AIR 4 blocks.
+a /data/stella_archive/46292.AIR 6 blocks.
+a /data/stella_archive/46293.AIR 4 blocks.
+about to compress the file /data/stella_archive/200810/air_2008Oct09.tar
+about to remove individual files
+step finished tar/compress
+2008/10/09---14:04:09 END OF PROGRAM

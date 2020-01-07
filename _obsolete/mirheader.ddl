@@ -1,0 +1,98 @@
+// ALL FIELDS ARE ZERO BASED
+// THIS SECTION DESCRIBES THE INPUT 
+// data structure for MIR file
+// used in StellaMIRLoad
+// read by ddl.java
+// Jyoti : added pnr_creation_date as part of airload changes
+
+Dictionary is MIRLOAD   // not relevant
+
+Filename is root
+
+RECORD IS mirheader
+ Type is FIXED
+ LENGTH IS 350
+
+Field is recheader
+  Type is ASCII CHARACTER
+  Starts in COLUMN    0
+  Length is  2
+
+
+Field is ticket_issue_datetime
+  Type is ASCII CHARACTER
+  Starts in COLUMN 20   
+  Length is  12
+
+//assume all tickets in this pnr are on same airline so take from header, not from a04 rec  
+Field is airline_num
+  Type is ASCII CHARACTER
+  Starts in COLUMN 34   
+  Length is  3
+
+
+// date of first travel
+Field is departure_date
+  Type is ASCII CHARACTER
+  Starts in COLUMN 61   
+  Length is  7
+
+Field is pseudo_city_code
+  Type is ASCII CHARACTER
+  Starts in COLUMN 85
+  Length is  4
+  
+Field is iata_no
+    Type is ASCII CHARACTER
+    Starts in COLUMN 89
+    Length is  9
+
+Field is pnr_no
+  Type is ASCII CHARACTER
+  Starts in COLUMN 98
+  Length is  6
+
+Field is ticketing_agent
+  Type is ASCII CHARACTER
+  Starts in COLUMN 120
+  Length is  2
+
+
+Field is commission_amt
+  Type is ASCII CHARACTER
+  Starts in COLUMN 214   
+  Length is  8
+  
+Field is commission_rate
+  Type is ASCII CHARACTER
+  Starts in COLUMN 222
+  Length is  4
+
+
+Field is tour_code
+  Type is ASCII CHARACTER
+  Starts in COLUMN 226   
+  Length is  15
+
+Field is atb_ind    // can be used for e-ticket
+  Type is ASCII CHARACTER
+  Starts in COLUMN 247   
+  Length is  1
+
+
+Field is conj_num_required_ind
+  Type is ASCII CHARACTER
+  Starts in COLUMN 249   
+  Length is  1
+
+  
+Field is e_ticket_ind
+  Type is ASCII CHARACTER
+  Starts in COLUMN 253   
+  Length is  2
+
+Field is pnr_creation_date  
+  Type is ASCII CHARACTER
+  Starts in COLUMN  124
+  Length is  7
+
