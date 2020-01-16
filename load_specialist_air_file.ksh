@@ -28,11 +28,11 @@ filename=${1}
 
 echo "Load file ${filename}"
 
-sqlldr ${dbuser}/${dbpass} control=${ctl_path}/air.ctl data=${data_path}/spec_airfiles/${filename} log=${load_log_path}/${filename}.log 
+sqlldr ${dbuser}/${dbpass} control=${ctl_path}/air.ctl data=${data_path}/spec_airfiles/${filename} log=${load_log_path}/sqlldr_${filename}.log 
 
-echo "Truncate table INTEGRATION_ERRORS"
+#echo "Truncate table INTEGRATION_ERRORS"
 
-echo "TRUNCATE TABLE STELLA.INTEGRATION_ERRORS;"|sqlplus -s $dbuser/$dbpass
+#echo "TRUNCATE TABLE STELLA.INTEGRATION_ERRORS;"|sqlplus -s $dbuser/$dbpass
 
 echo "Truncate table L_AIR_EMD"
 

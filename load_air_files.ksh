@@ -200,6 +200,25 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 
   report "Run the stored proc that loads the AIR files into the database"
 
+  # Clear the INTEGRATION_ERRORS table
+sqlplus -S -L ${dbuser}/${dbpass} << eof_marker
+  set serveroutput on size 1000000
+
+  set linesize 200
+
+  BEGIN  
+    DELETE FROM INTEGRATION_ERRORS
+    WHERE ERROR_DATE < TRUNC(SYSDATE);
+
+    COMMIT;
+
+  END;
+
+/
+
+EXIT
+eof_marker
+
   for filename in [0-9]*.AIR
   do
     [ -f ${filename} ] || continue
@@ -207,7 +226,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 
     ((filesread+=1))
 
-    logfile="load_air_${filename}_${file_date}.log"
+    logfile="load_flexair_${filename}.log"
     echo "Logfile "${logfile}
 
     ${appdir}/load_air_file.ksh ${filename} > ${load_log_path}/${logfile} 2>&1
