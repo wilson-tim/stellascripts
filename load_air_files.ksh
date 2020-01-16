@@ -268,7 +268,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   then
     echo "Error found"
     echo >> ${appdir}/air_error.err
-    echo "Logfile:${logfile}" >> ${appdir}/air_error.err
+#    echo "Logfile:${logfile}" >> ${appdir}/air_error.err
     cat ${error_mail_list} ${user_mail_list}|while read users
     do
       echo ${users}
