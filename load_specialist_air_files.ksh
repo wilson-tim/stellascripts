@@ -3,7 +3,7 @@
 
 ####################################################################################################
 #                                                                                                  #
-# LOAD_SPECIALIST_AIR_FILES.KSH  Load script for loading specialist air files                      #
+# LOAD_SPECIALIST_AIR_FILES.KSH  Load script for loading specialist AIR files                      #
 #                                                                                                  #
 ####################################################################################################
 # Change                                                                                           #
@@ -95,6 +95,21 @@ echo "start at step " $START_STEP_NO
 
 export START_STEP_NO
 
+if [ -f ${appdir}/specair_mail.log ]
+then
+  rm ${appdir}/specair_mail.log
+fi
+
+if [ -f ${appdir}/specair_error.err ]
+then
+  rm ${appdir}/specair_error.err
+fi
+
+if [ -f ${error_log} ]
+then
+  rm ${error_log}
+fi
+
 #step_no=10
 #if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 #  report "Step ${step_no}\n"
@@ -109,10 +124,6 @@ step_no=20
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Deleting error files which was created by prior run"
-  if [ -f ${appdir}/specair_error.err ]
-  then
-    rm ${appdir}/specair_error.err
-  fi
 
    report "Change ownership/rights on data files"
    echo ${data_path}/airfiles/[0-9]*.AIR | xargs chmod 644 2> /dev/null
@@ -125,7 +136,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 #step_no=30
 #if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 #  report "Step ${step_no}\n"
-#  report "Moving recycled files  (${recycledir}) into current data directory (${data_path}/spec_airfiles) so they can be processed again"
+#  report "Moving recycled files (${recycledir}) into current data directory (${data_path}/spec_airfiles) so they can be processed again"
 
 #  cd ${recycledir}
 #  for filename in spec*.AIR
@@ -142,10 +153,6 @@ step_no=35
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Checking for duplicate files"
-  if [ -f ${error_log} ]
-  then
-    rm ${error_log}
-  fi
 
   cd ${data_path}/spec_airfiles
   for filename in spec*.AIR
@@ -254,6 +261,9 @@ eof_marker
       grep -i "^SEVERE" ${load_log_path}/${logfile} >> ${appdir}/specair_error.err
       grep -i "^WARNING" ${load_log_path}/${logfile} >> ${appdir}/specair_error.err
       grep -i "^CRITICAL" ${load_log_path}/${logfile} >> ${appdir}/specair_error.err
+
+      # Append information details to batch run log
+      grep -i "^INFO " ${load_log_path}/${logfile} >> ${appdir}/specair_mail.log
     fi
   done
 else
@@ -267,7 +277,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Email error report to users"
   if [ -s ${appdir}/specair_error.err ]
   then
-    echo "error found"
+    echo "Error found"
     echo >>  ${appdir}/specair_error.err
 #    echo "Logfile:${logfile}" >> ${appdir}/specair_error.err
     cat ${error_mail_list} ${user_mail_list}|while read users
@@ -287,9 +297,9 @@ step_no=60
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Email processing report to users"
-  rm -f ${appdir}/specair_mail.log
   if [[ ! -z "${logfile}" ]] && [[ -s ${load_log_path}/${logfile} ]]
   then
+    echo "                         " >> ${appdir}/specair_mail.log
     echo "Today's run log:"  >> ${appdir}/specair_mail.log 
 #    echo "Logfile: ${logfile}" >> ${appdir}/specair_mail.log
 #    grep "INFO :START" ${logfile} >> ${appdir}/specair_mail.log
@@ -318,9 +328,15 @@ step_no=70
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Delete old log files"
-  echo "about to delete old log files"
-  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  ls -ltr  {}  \;
-  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  rm  -f  {}  \;
+  echo "About to delete old log files"
+#  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  ls -ltr  {}  \;
+  find ${load_log_path} -name "*.*" -mtime +8 -print0 | sort -z | xargs -r0 ls -ltr
+#  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  rm  -f  {}  \;
+  for logfiles in `find ${load_log_path} -name "*.*" -mtime +8`
+  do
+    [ -f ${logfiles} ] || continue
+    rm ${logfiles}
+  done
 else
   report "Step ${step_no} bypassed.\n"
 fi
@@ -331,7 +347,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Delete old AIR files then archive new AIR files"
 
-  echo "about to remove files from ${stellabakdir} more than 7 days old"
+  echo "About to remove files from ${stellabakdir} more than 7 days old"
   for arcfiles in `find ${stellabakdir} -name "spec*.AIR" -mtime +7`
   do
     [ -f ${arcfiles} ] || continue
@@ -373,7 +389,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
         echo "About to compress the file " ${archive_directory}/spec_air_${date2}.tar
         gzip ${archive_directory}/spec_air_${date2}.tar
 
-        echo "about to remove individual files"
+        echo "About to remove individual files"
         echo ${archivedir}/spec*.AIR | xargs rm
         rm ${archivedir}/tarlist.txt
       else

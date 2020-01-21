@@ -2,7 +2,7 @@
 #set -x
 ####################################################################################################
 #                                                                                                  #
-# LOAD_AIR_FILES.KSH  Load script for loading AIR files                                            #
+# LOAD_AIR_FILES.KSH  Load script for loading flexi AIR files                                            #
 #                                                                                                  #
 ####################################################################################################
 # Change                                                                                           #
@@ -69,7 +69,7 @@ archive_directory=${archivedir}/${date1}
 report ": Parameters passed: ${*}.\n"
 
 report "--------------------------------------------------------------------------"
-report ">>>>>> Stella AIR Load load_air_files.ksh"
+report ">>>>>> Stella Flexi AIR Load load_air_files.ksh"
 report "--------------------------------------------------------------------------"
 
 report "Checking input params"
@@ -92,6 +92,21 @@ echo "Start at step " $START_STEP_NO
 
 export START_STEP_NO
 
+if [ -f ${appdir}/air_mail.log ]
+then
+  rm ${appdir}/air_mail.log
+fi
+
+if [ -f ${appdir}/air_error.err ]
+then
+  rm ${appdir}/air_error.err
+fi
+
+if [ -f ${error_log} ]
+then
+  rm ${error_log}
+fi
+
 #step_no=10
 #if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
 #  report "Step ${step_no}\n"
@@ -106,10 +121,6 @@ step_no=20
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Deleting error files which was created by prior run"
-  if [ -f ${appdir}/air_error.err ]
-  then
-    rm ${appdir}/air_error.err
-  fi
 
    report "Change ownership/rights on data files"
    echo ${data_path}/airfiles/[0-9]*.AIR | xargs chmod 644 2> /dev/null
@@ -140,10 +151,6 @@ step_no=35
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Checking for duplicate files"
-  if [ -f ${error_log} ]
-  then
-    rm ${error_log}
-  fi
 
   cd ${data_path}/airfiles
   
@@ -161,7 +168,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   then
     echo "The following files already exist in the backup directory" > ${mailmessage}
     echo " it appears we are trying to process same file twice" >> ${mailmessage}
-    echo " The air load was cancelled" >> ${mailmessage}
+    echo " The flexi air load was cancelled" >> ${mailmessage}
     cat ${error_log} >> ${mailmessage}
   
     cat ${error_mail_list}|while read users
@@ -198,7 +205,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
     echo "WARNING No files were found to process" >> ${appdir}/air_error.err 
   fi
 
-  report "Run the stored proc that loads the AIR files into the database"
+  report "Run the stored proc that loads the flexi AIR files into the database"
 
   # Clear the INTEGRATION_ERRORS table
 sqlplus -S -L ${dbuser}/${dbpass} << eof_marker
@@ -253,6 +260,9 @@ eof_marker
       grep -i "^SEVERE" ${load_log_path}/${logfile} >> ${appdir}/air_error.err
       grep -i "^WARNING" ${load_log_path}/${logfile} >> ${appdir}/air_error.err
       grep -i "^CRITICAL" ${load_log_path}/${logfile} >> ${appdir}/air_error.err
+
+      # Append information details to batch run log
+      grep -i "^INFO " ${load_log_path}/${logfile} >> ${appdir}/air_mail.log
     fi
   done
 else
@@ -286,9 +296,9 @@ step_no=60
 if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Email processing report to users"
-  rm -f ${appdir}/air_mail.log
   if [[ ! -z "${logfile}" ]] && [[ -s ${load_log_path}/${logfile} ]]
   then
+    echo "                         " >> ${appdir}/air_mail.log
     echo "Today's run log:"  >> ${appdir}/air_mail.log 
 #    echo "Logfile: ${logfile}" >> ${appdir}/air_mail.log
 #    grep "INFO :START" ${logfile} >> ${appdir}/air_mail.log
@@ -318,8 +328,14 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Delete old log files"
   echo "About to delete old log files"
-  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  ls -ltr  {}  \;
-  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  rm  -f  {}  \;
+#  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  ls -ltr  {}  \;
+  find ${load_log_path} -name "*.*" -mtime +8 -print0 | sort -z | xargs -r0 ls -ltr
+#  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  rm  -f  {}  \;
+  for logfiles in `find ${load_log_path} -name "*.*" -mtime +8`
+  do
+    [ -f ${logfiles} ] || continue
+    rm ${logfiles}
+  done
 else
   report "Step ${step_no} bypassed.\n"
 fi
@@ -338,7 +354,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   done
 
   echo ""
-  echo "About to archive today's AIR files"
+  echo "About to archive today's flexi AIR files"
 
   for arcfiles in `find ${stellabakdir} -name "[0-9]*.AIR" -mtime -1`
   do 
