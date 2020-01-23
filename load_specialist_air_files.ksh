@@ -279,7 +279,6 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   then
     echo "Error found"
     echo >>  ${appdir}/specair_error.err
-#    echo "Logfile:${logfile}" >> ${appdir}/specair_error.err
     cat ${error_mail_list} ${user_mail_list}|while read users
     do
       echo ${users}
@@ -329,9 +328,7 @@ if [[ "${step_no}" -ge "${START_STEP_NO}" ]] then
   report "Step ${step_no}\n"
   report "Delete old log files"
   echo "About to delete old log files"
-#  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  ls -ltr  {}  \;
-  find ${load_log_path} -name "*.*" -mtime +8 -print0 | sort -z | xargs -r0 ls -ltr
-#  find ${load_log_path} ${load_log_path}/*.* -mtime +8 -exec  rm  -f  {}  \;
+  find ${load_log_path} -name "*.*" -mtime +8 -print0 | sort -z | xargs -r0 ls -l
   for logfiles in `find ${load_log_path} -name "*.*" -mtime +8`
   do
     [ -f ${logfiles} ] || continue
