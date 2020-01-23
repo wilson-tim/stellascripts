@@ -11,7 +11,8 @@
 # Date       Who  Description
 # --------   ---  ---------------------------------------------------------------------------------------
 # 01/10/08   ML   Initial creation
-# 18/11/2016 SM   Added Oracle Paths
+# 18/11/16   SM   Added Oracle Paths
+# 22/01/20   TW   Removed jutiluser and jutilpass shell variables
 #
 # -------- ---  ---------------------------------------------------------------------------------------
 # 
@@ -49,8 +50,6 @@ f_log_path=${log_path}
 archivedir="${data_path}/archive"
 stellabakdir="${data_path}/backup"
 errordir="${data_path}/error"
-jutiluser='JUTIL'
-jutilpass='procs'
 #
 export db_name
 export dw_name
@@ -79,6 +78,4 @@ export f_log_path
 export archivedir
 export stellabackdir
 export errordir
-export jutiluser
-export jutilpass
 #
