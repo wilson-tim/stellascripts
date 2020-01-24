@@ -19,3 +19,5 @@
 *.ksh   text eol=lf
 # Batch scripts require CRLF
 *.bat   text eol=crlf
+
+*.java linguist-detectable=false
