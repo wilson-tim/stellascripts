@@ -1,0 +1,21 @@
+#
+# https://github.com/Weltraumschaf/shell-scripts/blob/master/.gitattributes
+#
+# Configure line ending normalisation for this repository.
+# See http://schacon.github.io/git/gitattributes.html for more information.
+#
+# Also each developer should configure the old style normalisation on their workstation
+# (see http://timclem.wordpress.com/2012/03/01/mind-the-end-of-your-line/):
+#
+# Windows user should use: git config --global core.autocrlf = true
+# Unix/Linux users should use: git config --global core.autocrlf = input
+#
+
+# Auto detect text files and perform LF normalization
+*       text=auto
+
+*.txt   text
+# Shell scripts require LF
+*.ksh   text eol=lf
+# Batch scripts require CRLF
+*.bat   text eol=crlf
